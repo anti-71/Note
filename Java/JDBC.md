@@ -787,7 +787,7 @@ public void testUpdate() throws Exception {
 
 ### 6.删除
 
-```java
+```               java
 /**
  * 删除
  * sql:delete from tb brand where id = ?
