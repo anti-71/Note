@@ -1,0 +1,181 @@
+
+/* 媒体库画廊样式 */
+.media-gallery {
+  --card-width: 180px;
+  --card-gap: 16px;
+  --card-radius: 10px;
+  --primary-color: var(--interactive-accent);
+  --card-bg: var(--background-secondary);
+  --hover-bg: var(--background-modifier-hover);
+  --tag-bg: rgba(0, 0, 0, 0.6);
+}
+
+/* 筛选按钮 */
+.filter-btn, .rating-btn, .status-btn {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 16px;
+  padding: 6px 14px;
+  margin: 0 6px 10px 0;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filter-btn:hover, .rating-btn:hover, .status-btn:hover {
+  background: var(--hover-bg);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn.active, .rating-btn.active, .status-btn.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* 结果计数 */
+.result-count {
+  margin: 20px 0;
+  font-size: 0.9em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* 画廊网格 */
+.media-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
+  gap: var(--card-gap);
+  margin-top: 20px;
+}
+
+/* 媒体卡片 */
+.media-card {
+  background: var(--card-bg);
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.media-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 图片容器 */
+.media-img-container {
+  position: relative;
+  padding-top: 150%; /* 2:3 比例 */
+  overflow: hidden;
+}
+
+.media-img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.media-card:hover .media-img-container img {
+  transform: scale(1.08);
+}
+
+/* 评分星星 */
+.media-rating {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: var(--tag-bg);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  color: gold;
+  backdrop-filter: blur(4px);
+}
+
+/* 类型标签 */
+.media-type-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--tag-bg);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 1em;
+  backdrop-filter: blur(4px);
+}
+
+/* 状态标签 */
+.media-status-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--tag-bg);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 1em;
+  color: var(--text-normal);
+  backdrop-filter: blur(4px);
+}
+
+/* 信息区域 */
+.media-info {
+  padding: 14px;
+}
+
+.media-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  text-decoration: none;
+  color: var(--text-normal);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.05em;
+}
+
+.media-creator, .media-date, .media-extra-info {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.media-extra-info {
+  margin-top: 6px;
+  font-weight: 500;
+  color: var(--text-accent);
+}
+
+/* 无结果提示 */
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 50px;
+  color: var(--text-muted);
+  font-style: italic;
+  background: var(--background-secondary);
+  border-radius: var(--card-radius);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .media-gallery {
+    --card-width: 140px;
+    --card-gap: 12px;
+  }
+  
+  .filter-btn, .rating-btn, .status-btn {
+    padding: 4px 10px;
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "发布时间": "date",
+    "创建时间": "date",
+    "观毕时间": "date",
+    "标题": "text",
+    "导演": "multitext",
+    "类别": "text",
+    "星级": "text",
+    "评分": "number",
+    "集数": "number"
+  }
+}
