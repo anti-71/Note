@@ -11,6 +11,7 @@
     "类别": "text",
     "星级": "text",
     "评分": "number",
-    "集数": "number"
+    "集数": "number",
+    "index": "number"
   }
 }

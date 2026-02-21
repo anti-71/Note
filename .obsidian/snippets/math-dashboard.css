@@ -1,0 +1,167 @@
+/* 针对深色背景定制的全局变量 */
+#math-dashboard-v7 {
+    /* 基础底色 */
+    --bg-main: rgb(42, 49, 62);           
+    /* 按钮与卡片底色 */
+    --bg-card: rgb(60, 70, 88);           
+    --bg-header: rgb(75, 85, 105);        
+    /* 强调色 */
+    --accent-purple: rgb(160, 150, 255);  
+    --accent-purple-light: rgb(200, 190, 255); 
+    /* 文字颜色 */
+    --text-bright: rgb(220, 230, 240);    
+    --text-muted: rgb(170, 185, 205);     
+    --border-visible: rgba(255, 255, 255, 0.15);
+
+    padding: 25px;
+    background: var(--bg-main);
+    border-radius: 16px;
+    border: 1px solid var(--border-visible);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* 标题样式 */
+.math-section-title {
+    margin-bottom: 18px;
+    font-size: 1.15em;
+    font-weight: 600;
+    color: var(--accent-purple-light);
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px rgba(160, 150, 255, 0.2);
+}
+
+/* --- 科目大按钮 --- */
+.sub-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) !important; /* 强制4列对应四个科目 */
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.math-btn {
+    padding: 18px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: bold;
+    border: 1px solid var(--border-visible);
+    background: var(--bg-card);
+    color: var(--text-muted);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+}
+
+.math-btn:hover {
+    transform: translateY(-3px);
+    background: var(--bg-header);
+    color: white;
+    border-color: var(--accent-purple);
+}
+
+.math-btn.is-active {
+    background: var(--accent-purple);
+    color: white !important;
+    border-color: var(--accent-purple);
+    box-shadow: 0 0 20px rgba(160, 150, 255, 0.4);
+}
+
+/* --- 章节胶囊（已修改为与科目按钮状态一致） --- */
+.chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.math-chip {
+    padding: 8px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold; /* 增加权重使其与科目按钮更像 */
+    border: 1px solid var(--border-visible);
+    background: var(--bg-card); /* 修改：与科目按钮底色一致 */
+    color: var(--text-muted);   /* 修改：与科目按钮文字颜色一致 */
+    transition: all 0.2s ease;
+    box-shadow: none;           /* 确保无阴影 */
+}
+
+.math-chip:hover {
+    transform: translateY(-2px);
+    background: var(--bg-header);
+    color: white;
+    border-color: var(--accent-purple-light);
+}
+
+.math-chip.is-active {
+    background: var(--accent-purple-light);
+    color: var(--bg-main) !important; 
+    font-weight: 700;
+    border-color: var(--accent-purple-light);
+    box-shadow: 0 0 15px rgba(160, 150, 255, 0.3); /* 仅在激活时显示阴影 */
+}
+
+/* --- 表格美化 --- */
+.math-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border: 1px solid var(--border-visible);
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.math-table th {
+    background: var(--bg-header) !important; 
+    padding: 16px;
+    font-weight: 700;
+    color: var(--accent-purple-light);
+    border-bottom: 2px solid var(--accent-purple-light);
+    text-align: center;
+}
+
+.math-table td {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-visible);
+    vertical-align: middle;
+    color: var(--text-bright);
+}
+
+.math-table td:first-child {
+    color: var(--accent-purple-light);
+    font-weight: 600;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.math-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* 知识点标签 */
+.kp-tag {
+    display: inline-block;
+    background: rgba(160, 150, 255, 0.1);
+    border: 1px solid rgba(160, 150, 255, 0.3);
+    color: var(--accent-purple-light);
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 0.85em;
+    transition: all 0.2s ease;
+}
+
+.kp-tag:hover {
+    background: var(--accent-purple-light);
+    color: var(--bg-main);
+    transform: translateY(-2px);
+}
+
+/* 分隔线 */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--border-visible), transparent);
+    margin: 30px 0;
+}
