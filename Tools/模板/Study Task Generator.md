@@ -8,8 +8,8 @@ let finalContent = "";
 if (selectedCat === "英语") {
     const items = [
         { d: "背单词", v: "英语-背单词: 复习   词, 学   词" },
-        { d: "外刊", v: "英语-外刊:   篇" },
-        { d: "网课", v: "英语-网课:   节" }
+        { d: "外刊", v: "英语-外刊:   篇,   分钟" },
+        { d: "网课", v: "英语-网课:   节,   分钟" }
     ];
     finalContent = await tp.system.suggester(items.map(i => i.d), items.map(i => i.v));
 } else if (selectedCat === "数学") {
@@ -20,7 +20,7 @@ if (selectedCat === "英语") {
 
     const items = [
         { d: "做题", type: "task" },
-        { d: "网课", v: `数学-${sub}-网课:   节` },
+        { d: "网课", v: `数学-${sub}-网课:   节,   分钟` },
         { d: "错题整理", v: `数学-${sub}-错题整理:   题` }
     ];
     const selected = await tp.system.suggester(items.map(i => i.d), items);
@@ -28,7 +28,7 @@ if (selectedCat === "英语") {
     
     if (selected.type === "task") {
         const bookName = await tp.system.prompt("请输入书名");
-        finalContent = `数学-${sub}-做题: ${bookName}: [章节] (  /  )`;
+        finalContent = `数学-${sub}-做题: ${bookName}: [章节] (  /  ),   分钟`;
     } else {
         finalContent = selected.v;
     }
@@ -37,7 +37,7 @@ if (selectedCat === "英语") {
     const sub = await tp.system.suggester(subjects, subjects);
     if (!sub) return;
     const types = [
-        { d: "网课", v: `408-${sub}-网课:   节` },
+        { d: "网课", v: `408-${sub}-网课:   节,   分钟` },
         { d: "做题", type: "task" }
     ];
     const selected = await tp.system.suggester(types.map(i => i.d), types);
@@ -45,15 +45,15 @@ if (selectedCat === "英语") {
 
     if (selected.type === "task") {
         const bookName = await tp.system.prompt("请输入书名");
-        finalContent = `408-${sub}-做题: ${bookName}: [章节] (  /  )`;
+        finalContent = `408-${sub}-做题: ${bookName}: [章节] (  /  ),   分钟`;
     } else {
         finalContent = selected.v;
     }
 } else if (selectedCat === "Anki") {
-    finalContent = "Anki";
+    finalContent = "Anki:   分钟";
 } else if (selectedCat === "本科学习") {
     const courseName = await tp.system.prompt("请输入本科科目名称");
-    finalContent = `本科学习-${courseName}`;
+    finalContent = `本科学习-${courseName},   分钟`;
 }
 
 if (finalContent) { 

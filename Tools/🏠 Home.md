@@ -3,6 +3,19 @@ banner: https://cdn.jsdelivr.net/gh/anti-71/Tuchuang/img/20260126230242716.jpg
 ---
 <h1 style="text-align: center;">🏠 Home</h1>
 
+## 🎯 年度目标
+
+<div style=" 
+	background: #2D3748; 
+	border: 2px solid transparent; 
+	border-image: linear-gradient(to right, #00dbde, #fc00ff) 1; 
+	padding: 25px; text-align: center;"> 
+	<span style="font-size: 0.9em; letter-spacing: 5px; color: #888;">MISSION START</span> 
+	<h1 style="color: white; margin: 10px 0; text-shadow: 0 0 10px rgba(252,0,255,0.5);"> 2026 考研上岸
+	</h1> 
+	<p style="color: #ccc; font-style: italic;">在这里写下你今年最不甘平庸的野心</p> 
+</div>
+
 ## 📋 学习规划
 
 ````hblock

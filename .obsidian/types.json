@@ -12,6 +12,8 @@
     "星级": "text",
     "评分": "number",
     "集数": "number",
-    "index": "number"
+    "index": "number",
+    "score": "number",
+    "date": "date"
   }
 }
