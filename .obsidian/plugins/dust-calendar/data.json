@@ -1,11 +1,11 @@
 {
   "shouldDisplayLunarInfo": true,
   "shouldDisplayHolidayInfo": true,
-  "fontSizeChangeMode": 2,
+  "fontSizeChangeMode": 3,
   "immutableFontSizeFactor": 0,
   "quarterNameMode": 2,
   "wordsPerDot": 500,
-  "dotUpperLimit": 3,
+  "dotUpperLimit": 2,
   "todoAnnotationMode": 3,
   "shouldConfirmBeforeCreatingNote": false,
   "templatePlugin": 0,

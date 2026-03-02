@@ -53,7 +53,7 @@ if (selectedCat === "英语") {
     finalContent = "Anki:   分钟";
 } else if (selectedCat === "本科学习") {
     const courseName = await tp.system.prompt("请输入本科科目名称");
-    finalContent = `本科学习-${courseName},   分钟`;
+    finalContent = `本科学习-${courseName}:   分钟`;
 }
 
 if (finalContent) { 
