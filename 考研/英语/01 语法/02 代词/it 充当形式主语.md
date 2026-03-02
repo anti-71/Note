@@ -1,11 +1,12 @@
 ---
 名称: it 充当形式主语
 章: 语法
-节: "[[02 代词|第二节 代词]]"
+节: "[[第二节 代词|第二节 代词]]"
 tags:
   - 知识点
 index: 5
 ---
+> [!example]
 > **It** was his duty to attend to the matter.
 >
 > （it 充当形式主语，真正主语为不定式 to attend to the matter）

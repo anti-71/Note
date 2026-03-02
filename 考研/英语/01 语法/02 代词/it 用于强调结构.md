@@ -1,7 +1,7 @@
 ---
 名称: it 用于强调结构
 章: 语法
-节: "[[02 代词|第二节 代词]]"
+节: "[[第二节 代词|第二节 代词]]"
 tags:
   - 知识点
 index: 7
@@ -10,6 +10,7 @@ index: 7
 
 一般来说， 被强调部分指人时用 who，指物时用 that (但 that 亦可指人）
 
+> [!example]
 > John wore his best suit to the dance last night.
 >
 > 约翰昨晚穿着他最好的一套衣服去参加舞会。

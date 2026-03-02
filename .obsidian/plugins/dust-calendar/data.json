@@ -4,7 +4,7 @@
   "fontSizeChangeMode": 3,
   "immutableFontSizeFactor": 0,
   "quarterNameMode": 2,
-  "wordsPerDot": 500,
+  "wordsPerDot": 1000,
   "dotUpperLimit": 2,
   "todoAnnotationMode": 3,
   "shouldConfirmBeforeCreatingNote": false,
