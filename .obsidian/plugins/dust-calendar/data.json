@@ -5,7 +5,7 @@
   "immutableFontSizeFactor": 0,
   "quarterNameMode": 2,
   "wordsPerDot": 1000,
-  "dotUpperLimit": 2,
+  "dotUpperLimit": 1,
   "todoAnnotationMode": 3,
   "shouldConfirmBeforeCreatingNote": false,
   "templatePlugin": 0,
