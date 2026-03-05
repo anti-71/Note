@@ -91,7 +91,7 @@ dv.container.innerHTML = `
 ---
 
 ## ⏳ 倒计时
-- **考研/考试倒计时**：还有 `<%* let target = new Date("2026-12-19"); 
+- **考研倒计时**：还有 `<%* let target = new Date("2026-12-19"); 
   let today = new Date();
   let diff = Math.ceil((target - today) / (1000 * 60 * 60 * 24));
   tR += diff;
