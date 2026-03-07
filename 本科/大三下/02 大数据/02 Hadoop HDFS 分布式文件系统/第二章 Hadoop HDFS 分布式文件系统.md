@@ -13,6 +13,6 @@ index: 2
 
 ## [[HDFS 集群环境部署|第四节 HDFS 集群环境部署]]
 
-## [[HDFS 的存储原理|第五节 HDFS 的存储原理]]
+## [[HDFS 的 Shell 操作|第五节 HDFS 的 Shell 操作]]
 
-## [[HDFS 的 Shell 操作|第六节 HDFS 的 Shell 操作]]
+## [[HDFS 的存储原理|第六节 HDFS 的存储原理]]
