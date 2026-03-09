@@ -13,6 +13,6 @@ index: 3
 
 ## [[YARN 架构|第四节 YARN 架构]]
 
-## 第五节 MapReduce & YARN 的部署
+## [[MapReduce & YARN 的部署|第五节 MapReduce & YARN 的部署]]
 
 ## 第六节 MapReduce & YARN 初体验
