@@ -22,7 +22,7 @@
     }
   ],
   "PrefixDictionary": "n8n, /[1234][dD]/\npython3, Python3",
-  "SoftSpaceLeftSymbols": "-|[]",
+  "SoftSpaceLeftSymbols": "-|[].",
   "SoftSpaceRightSymbols": "-|[]",
   "customScriptCategories": [],
   "InlineCodeSpaceMode": 1,

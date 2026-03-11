@@ -15,4 +15,4 @@ index: 3
 
 ## [[MapReduce & YARN 的部署|第五节 MapReduce & YARN 的部署]]
 
-## 第六节 MapReduce & YARN 初体验
+## [[MapReduce & YARN 初体验|第六节 MapReduce & YARN 初体验]]

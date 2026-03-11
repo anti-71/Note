@@ -32,11 +32,11 @@ index: 5
 
 ##### Hadoop 组件信息
 
-|组件|配置文件|启动进程|备注|
-|---|---|---|---|
-|Hadoop HDFS|需修改|需启动<br><br>・NameNode 作为主节点<br><br>・DataNode 作为从节点<br><br>・SecondaryNameNode 主节点辅助|分布式文件系统|
-|Hadoop YARN|需修改|需启动<br><br>・ResourceManager 作为集群资源管理者<br><br>・NodeManager 作为单机资源管理者<br><br>・ProxyServer 代理服务器提供安全性<br><br>・JobHistoryServer 记录历史信息和日志|分布式资源调度|
-|Hadoop MapReduce|需修改|**无需启动任何进程**<br><br>MapReduce 程序运行在 YARN 容器内|分布式数据计算|
+| 组件               | 配置文件 | 启动进程                                                                                                                  | 备注      |
+| ---------------- | ---- | --------------------------------------------------------------------------------------------------------------------- | ------- |
+| Hadoop HDFS      | 需修改  | 需启动<br>・NameNode 作为主节点<br>・DataNode 作为从节点<br>・SecondaryNameNode 主节点辅助                                                 | 分布式文件系统 |
+| Hadoop YARN      | 需修改  | 需启动<br>・ResourceManager 作为集群资源管理者<br>・NodeManager 作为单机资源管理者<br>・ProxyServer 代理服务器提供安全性<br>・JobHistoryServer 记录历史信息和日志 | 分布式资源调度 |
+| Hadoop MapReduce | 需修改  | **无需启动任何进程**<br>MapReduce 程序运行在 YARN 容器内                                                                              | 分布式数据计算 |
 
 ##### 集群规划
 
@@ -44,11 +44,11 @@ index: 5
 
 集群规划如下：
 
-|主机|角色|
-|---|---|
-|node 1|ResourceManager<br><br>NodeManager<br><br>ProxyServer<br><br>JobHistoryServer|
-|node 2|NodeManager|
-|node 3|NodeManager|
+| 主机     | 角色                                                                |
+| ------ | ----------------------------------------------------------------- |
+| node 1 | ResourceManager<br>NodeManager<br>ProxyServer<br>JobHistoryServer |
+| node 2 | NodeManager                                                       |
+| node 3 | NodeManager                                                       |
 
 ##### MapReduce 配置文件
 
