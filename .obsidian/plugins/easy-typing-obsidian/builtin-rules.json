@@ -8,13 +8,14 @@
     "description": "输入全角括号/引号时自动补全配对"
   },
   {
-    "id": "builtin-autopair-jump",
     "trigger": "《》|“”|““|‘’|‘‘|（）",
     "trigger_right": "》|”|’|）",
     "replacement": "const map = {\n  \"《》\": [\"》\", \"《》\"],\n  \"（）\": [\"）\", \"（）\"],\n  \"“”\": [\"”\", \"“”\"],\n  \"““\": [\"”\", \"“”\"],\n  \"‘’\": [\"’\", \"‘’\"],\n  \"‘‘\": [\"’\", \"‘’\"]\n}\nif(map[leftMatches[0]][0]==rightMatches[0]){\n  return map[leftMatches[0]][1];\n}\nreturn undefined;",
     "options": "rF",
     "priority": 5,
-    "description": "输入右侧配对符号时自动跳过，避免重复插入"
+    "description": "输入右侧配对符号时自动跳过，避免重复插入",
+    "enabled": true,
+    "id": "builtin-autopair-jump"
   },
   {
     "id": "builtin-autopair-delete",
@@ -42,13 +43,14 @@
     "description": "行内代码中继续输入 · 升级为代码块"
   },
   {
-    "id": "builtin-conv-formula",
     "trigger": "(￥￥|¥¥|\\$￥|\\$¥|\\$\\$)",
     "trigger_right": "\\$?",
     "replacement": "return rightMatches[0] === '$' ? '$$\\n$0\\n$$' : '$$0$';",
     "options": "rF",
     "priority": 10,
-    "description": "￥/$ 符号组合转行内或块级公式"
+    "description": "￥/$ 符号组合转行内或块级公式",
+    "enabled": true,
+    "id": "builtin-conv-formula"
   },
   {
     "id": "builtin-conv-linestart",
@@ -59,22 +61,24 @@
     "description": "行首 》 转引用标记、行首 、 转斜杠"
   },
   {
-    "id": "builtin-conv-hw2fw",
     "trigger": "([一-龥぀-ゟ゠-ヿ가-힯])([,.:?!;(])",
     "trigger_right": "\\)?",
     "replacement": "const m={',':'，','.':'。','?':'？','!':'！',':':'：',';':'；','(':'（$0）'}; return leftMatches[1] + m[leftMatches[2]];",
     "options": "rF",
     "priority": 15,
-    "description": "CJK字符后半角标点转全角"
+    "description": "CJK字符后半角标点转全角",
+    "enabled": true,
+    "id": "builtin-conv-hw2fw"
   },
   {
-    "id": "builtin-fw2hw-double",
     "trigger": "([。！；，：？》｜（《])\\1",
     "trigger_right": "[）》]?",
     "replacement": "const p={'（':['）','($0)'],'《':['》','<$0']};\nconst m={'。':'.$0','！':'!$0','；':';$0','，':',$0','：':':$0','？':'?$0','》':'>$0','｜':'|$0','（':'($0)','《':'<$0'};\nconst c=leftMatches[1],r=rightMatches[0]||'',e=p[c]; \nreturn e&&e[0]===r?e[1]:m[c];",
     "options": "rF",
     "priority": 3,
-    "description": "连续输入两个相同全角标点转对应半角"
+    "description": "连续输入两个相同全角标点转对应半角",
+    "enabled": true,
+    "id": "builtin-fw2hw-double"
   },
   {
     "id": "builtin-del-inline-formula",

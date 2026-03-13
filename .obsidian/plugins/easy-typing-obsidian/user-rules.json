@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "trigger": "、",
+    "replacement": "\\",
+    "options": "f",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773369855051-fv4b"
+  }
+]
