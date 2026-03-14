@@ -227,3 +227,15 @@ scp mapred-env.sh mapred-site.xml yarn-env.sh yarn-site.xml node3:`pwd`/
 ##### 查看 YARN 的 WEB UI 页面
 
 - 打开 `http://node1:8088` 即可看到 YARN 集群的监控页面（ResourceManager 的 WEB UI）
+
+##### 提交求圆周率示例程序
+
+可以执行如下命令，使用蒙特卡罗算法模拟计算求 PI（圆周率）
+
+```bash
+hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar pi 3 1000
+```
+
+- 参数 pi 表示要运行的 Java 类，这里表示运行 jar 包中的求 pi 程序
+- 参数 3，表示设置几个 map 任务
+- 参数 1000，表示模拟求 PI 的样本数（越大求的 PI 越准确，但是速度越慢）
