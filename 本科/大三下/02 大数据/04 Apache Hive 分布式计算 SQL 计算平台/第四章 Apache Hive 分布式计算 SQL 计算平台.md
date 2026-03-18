@@ -13,7 +13,7 @@ index: 4
 
 ## [[Hive 部署|第四节 Hive 部署]]
 
-## 第五节 Hive 初体验
+## [[Hive 初体验|第五节 Hive 初体验]]
 
 ## 第六节 Hive 客户端
 
