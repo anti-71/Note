@@ -29,3 +29,11 @@ INSERT INTO test VALUES(1, '王力红', '男'), (2, '周杰伦', '男'), (3, '�
 ```sql
 SELECT gender, COUNT(*) AS cnt FROM test GROUP BY gender;
 ```
+
+- 验证 Hive 的数据存储
+
+Hive 的数据存储在 HDFS 的：`/user/hive/warehouse` 中
+
+- 验证 SQL 语句启动的 MapReduce 程序
+
+打开 YARN 的 WEB UI 页面查看任务情况：`http://node1:8088`
