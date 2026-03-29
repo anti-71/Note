@@ -6,5 +6,85 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1773369855051-fv4b"
+  },
+  {
+    "trigger": "dp",
+    "replacement": "\\displaystyle",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774746566737-ytik"
+  },
+  {
+    "trigger": "f",
+    "replacement": "\\frac{$0}{}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774746711169-ziwe"
+  },
+  {
+    "trigger": "l",
+    "replacement": "\\lim_limits{$0}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774746861352-z30s"
+  },
+  {
+    "trigger": "i",
+    "replacement": "\\int^{$0}_{}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774747020701-7mcu"
+  },
+  {
+    "trigger": "mr",
+    "replacement": "\\mathrm{$0}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774747069364-5q72"
+  },
+  {
+    "trigger": "ip",
+    "replacement": "\\implies",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774752305391-a6m7"
+  },
+  {
+    "trigger": "if",
+    "replacement": "\\infty",
+    "options": "Tf",
+    "priority": 99,
+    "enabled": true,
+    "id": "user-1774769581242-6068"
+  },
+  {
+    "trigger": "3",
+    "replacement": "### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774748400758-b1h5"
+  },
+  {
+    "trigger": "4",
+    "replacement": "#### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774747943760-v4cw"
+  },
+  {
+    "trigger": "5",
+    "replacement": "##### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774748429141-sj97"
   }
 ]
