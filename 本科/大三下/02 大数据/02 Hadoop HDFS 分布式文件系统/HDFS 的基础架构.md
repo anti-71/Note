@@ -6,7 +6,7 @@ tags:
   - 知识点
 index: 3
 ---
-### 一、HDFS
+##### HDFS
 
 HDFS 是 Hadoop 三大组件（HDFS、MapReduce、YARN）之一
 
@@ -16,7 +16,7 @@ HDFS 是 Hadoop 三大组件（HDFS、MapReduce、YARN）之一
 
 HDFS 是一个典型的 **主从模式** 架构
 
-### 二、HDFS 的基础架构
+##### HDFS 的基础架构
 
 HDFS 集群（分布式存储）
 

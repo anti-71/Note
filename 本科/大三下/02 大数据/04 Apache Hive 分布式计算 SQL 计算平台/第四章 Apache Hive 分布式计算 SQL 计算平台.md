@@ -5,15 +5,29 @@ tags:
   - 章节
 index: 4
 ---
-## [[Apache Hive 概述|第一节 Apache Hive 概述]]
+### 第一节 Apache Hive 概述
 
-## [[模拟实现 Hive 功能|第二节 模拟实现 Hive 功能]]
+- #### [[Apache Hive 概述]]
 
-## [[Hive 基础架构|第三节 Hive 基础架构]]
+### 第二节 模拟实现 Hive 功能
 
-## [[Hive 部署|第四节 Hive 部署]]
+- #### [[模拟实现 Hive 功能]]
 
-## [[Hive 初体验|第五节 Hive 初体验]]
+### 第三节 Hive 基础架构
 
-## [[Hive 客户端|第六节 Hive 客户端]]
+- #### [[Hive 基础架构]]
+
+### 第四节 Hive 部署
+
+- #### [[Hive 部署]]
+
+### 第五节 Hive 初体验
+
+- #### [[Hive 初体验]]
+
+### 第六节 Hive 客户端
+
+- #### [[HiveServer 2 & Beeline|1. HiveServer 2 & Beeline]]
+- #### [[DataGrip & DBeaver|2. DataGrip & DBeaver]]
+
 

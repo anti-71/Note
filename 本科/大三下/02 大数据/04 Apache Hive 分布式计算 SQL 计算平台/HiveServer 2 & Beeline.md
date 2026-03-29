@@ -1,13 +1,11 @@
 ---
-名称: Hive 客户端
+名称: HiveServer 2 & Beeline
 章: 02 大数据
 节: "[[第四章 Apache Hive 分布式计算 SQL 计算平台]]"
 tags:
   - 知识点
 index: 6
 ---
-### （一）HiveServer 2 & Beeline
-
 ##### HiveServer 2 服务
 
 在启动 Hive 的时候，除了必备的 Metastore 服务外，我们前面提过有 2 种方式使用 Hive：
@@ -56,21 +54,3 @@ nohup bin/hive --service hiveserver2 >> logs/hiveserver2.log 2>&1 &
 2. Beeline 是 JDBC 的客户端，通过 JDBC 协议和 Hiveserver 2 服务进行通信，协议的地址是：
    
    `jdbc:hive2://node1:10000`
-
-### （二）DataGrip & DBeaver
-
-##### Hive 第三方客户端
-
-1. 工具列表
-   
-   **DataGrip**、**Dbeaver**、SQuirrel SQL Client 等
-
-2. 工具定位
-   
-   可以在 Windows、MAC 平台中 **通过 JDBC 连接 HiveServer2 的图形界面工具**
-   
-3. 工具特点
-   
-   这类工具往往专门针对 SQL 类软件进行开发优化、**页面美观大方**，**操作简洁**，更重要的是 **SQL 编辑环境优雅**
-   
-   **SQL 语法智能提示补全**、**关键字高亮**、**查询结果智能显示**、**按钮操作大于命令操作**

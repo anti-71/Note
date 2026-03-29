@@ -6,7 +6,7 @@ tags:
   - 知识点
 index: 4
 ---
-### 一、安装包下载
+##### 安装包下载
 
 官方网址：<https://hadoop.apache.org>
 
@@ -14,7 +14,7 @@ index: 4
 
 该文档使用当前最新的发行版：3.4.2 版
 
-### 二、集群规划
+##### 集群规划
 
 | 节点  |                 服务                  |
 | :---: | :-----------------------------------: |
@@ -22,7 +22,7 @@ index: 4
 | node2 |               DataNode                |
 | node3 |               DataNode                |
 
-### 三、上传 ＆ 解压
+##### 上传 ＆ 解压
 
 > [!failure] 注意
 > 请确认已经完成前置准备中的服务器创建、固定 IP、防火墙关闭、Hadoop 用户创建、SSH 免密、JDK 部署等操作
@@ -30,7 +30,6 @@ index: 4
 以下操作 node1 节点执行以 root 身份登陆
 
 1. 上传 Hadoop 安装包到 node1 节点中
-
 2. 解压缩安装包到 `/export/server/` 中
 
    ```bash
@@ -50,7 +49,7 @@ ln -s /export/server/hadoop-3.4.2 hadoop
 cd hadoop
    ```
 
-### 四、Hadoop 安装包目录结构
+##### Hadoop 安装包目录结构
 
 cd 进入 Hadoop 安装包内，通过 `ls -l` 命令查看文件夹内部结构
 
@@ -65,7 +64,7 @@ cd 进入 Hadoop 安装包内，通过 `ls -l` 命令查看文件夹内部结构
 - **sbin，管理员程序（super bin）**
 - share，存放二进制源码（Java jar 包）
 
-### 五、修改配置文件，应用自定义设置
+##### 修改配置文件，应用自定义设置
 
 配置 HDFS 集群，我们主要涉及到如下文件的修改：
 
@@ -79,7 +78,7 @@ cd 进入 Hadoop 安装包内，通过 `ls -l` 命令查看文件夹内部结构
 > [!note]
 > $HADOOP_HOME 是后续我们要设置的环境变量，其指代 Hadoop 安装文件夹，即/export/server/hadoop
 
-##### 配置 workers 文件
+1. 配置 workers 文件
 
 ```bash
 # 进入配置文件目录
@@ -94,7 +93,7 @@ node3
 
 填入的 node1、node2、node3 表明集群记录了三个从节点（DataNode）
 
-##### 配置 hadoop-env.sh 文件
+2. 配置 hadoop-env.sh 文件
 
 ```bash
 # 填入如下内容
@@ -111,7 +110,7 @@ export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 
 通过记录这些环境变量，来指明上述运行时的重要信息
 
-##### 配置 core-site.xml 文件
+3. 配置 core-site.xml 文件
 
 在文件内部填入如下内容
 
@@ -132,9 +131,11 @@ export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 - key：fs.defaultFS
 - 含义：HDFS 文件系统的网络通讯路径
 - 值：hdfs://node1:8020
-  - 协议为 hdfs://
-  - namenode 为 node1
-  - namenode 通讯端口为 8020
+	  
+	- 协议为 hdfs://
+	- namenode 为 node1
+	- namenode 通讯端口为 8020
+	  
 - key：io.file.buffer.size
 - 含义：io 操作文件缓冲区大小
 - 值：131072 bit
@@ -145,7 +146,7 @@ export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 - 表明 DataNode 将和 node1 的 8020 端口通讯，node1 是 NameNode 所在机器
 - 此配置固定了 node1 必须启动 NameNode 进程
 
-##### 配置 hdfs-site.xml 文件
+4. 配置 hdfs-site.xml 文件
 
 ```xml
 # 在文件内部填入如下内容
@@ -213,7 +214,7 @@ export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 - 含义：从节点 DataNode 的数据存储目录
 - 值：/data/dn，即数据存放在 node1、node2、node3，三台机器的 /data/dn 内
 
-### 六、准备数据目录
+##### 准备数据目录
 
 根据下述 2 个配置项：
 
@@ -242,7 +243,7 @@ export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 - 在 node2 和 node3 节点：
   - `mkdir -p /data/dn`
 
-### 七、分发 Hadoop 文件夹
+##### 分发 Hadoop 文件夹
 
 目前，已经基本完成 Hadoop 的配置操作，可以从 node1 将 hadoop 安装文件夹远程复制到 node2、node3
 
@@ -269,7 +270,7 @@ ln -s /export/server/hadoop-3.4.2 /export/server/hadoop
 ln -s /export/server/hadoop-3.4.2 /export/server/hadoop
 ```
 
-### 八、配置环境变量
+##### 配置环境变量
 
 为了方便我们操作 Hadoop，可以将 Hadoop 的一些脚本、程序配置到 PATH 中，方便后续使用
 
@@ -285,7 +286,7 @@ ln -s /export/server/hadoop-3.4.2 /export/server/hadoop
 
 2. **在 node2 和 node3 配置同样的环境变量**
 
-### 九、授权为 hadoop 用户
+##### 授权为 hadoop 用户
 
 hadoop 部署的准备工作基本完成
 
@@ -304,7 +305,7 @@ chown -R hadoop:hadoop /data
 chown -R hadoop:hadoop /export
 ```
 
-### 十、格式化整个文件系统
+##### 格式化整个文件系统
 
 前期准备全部完成，现在对整个文件系统执行初始化
 

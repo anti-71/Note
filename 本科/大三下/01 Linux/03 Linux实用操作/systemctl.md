@@ -6,7 +6,7 @@ tags:
   - 知识点
 index: 3
 ---
-### 一、systemctt 命令
+##### systemctt 命令
 
 Linux 系统很多软件（内置或第三方）均支持使用 systemctl 命令控制：启动、停止、开机自启
 

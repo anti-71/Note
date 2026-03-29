@@ -4,7 +4,7 @@
 节: "[[第三章 分布式计算 Hadoop MapReduce & YARN]]"
 tags:
   - 知识点
-index: 5
+index: 6
 ---
 ##### 部署说明
 
