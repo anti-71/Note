@@ -8,6 +8,22 @@
     "id": "user-1773369855051-fv4b"
   },
   {
+    "trigger": "……",
+    "replacement": "^",
+    "options": "f",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774880858849-8jwy"
+  },
+  {
+    "trigger": "——",
+    "replacement": "_",
+    "options": "f",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774880915031-djxp"
+  },
+  {
     "trigger": "dp",
     "replacement": "\\displaystyle",
     "options": "Tf",
