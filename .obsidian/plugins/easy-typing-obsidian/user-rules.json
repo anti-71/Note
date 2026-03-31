@@ -8,14 +8,6 @@
     "id": "user-1773369855051-fv4b"
   },
   {
-    "trigger": "……",
-    "replacement": "^",
-    "options": "f",
-    "priority": 100,
-    "enabled": true,
-    "id": "user-1774880858849-8jwy"
-  },
-  {
     "trigger": "——",
     "replacement": "_",
     "options": "f",
@@ -78,6 +70,54 @@
     "priority": 99,
     "enabled": true,
     "id": "user-1774769581242-6068"
+  },
+  {
+    "trigger": "c",
+    "replacement": "\\cdot",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774947843019-m2ck"
+  },
+  {
+    "trigger": "b",
+    "replacement": "\\begin{aligned}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774948072902-gxrl"
+  },
+  {
+    "trigger": "e",
+    "replacement": "\\end{aligned}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774948090702-l2yq"
+  },
+  {
+    "trigger": "j",
+    "replacement": "^",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774961435193-b356"
+  },
+  {
+    "trigger": "s",
+    "replacement": "\\sqrt{$0}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774961851375-vnsy"
+  },
+  {
+    "trigger": "dkh",
+    "replacement": "{$0}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774968597524-07lc"
   },
   {
     "trigger": "3",
