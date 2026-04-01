@@ -19,9 +19,9 @@ const callouts = {
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type');
 if (!type) return; 
 
-// 2. 输入标题：如果是 example 则跳过输入，默认为空
+// 2. 输入标题：如果是 example 或 question 则跳过输入，默认为空
 let title = "";
-if (type !== "example") {
+if (type !== "example" && type !== "question") {
     title = await tp.system.prompt('Title:', '', true);
 }
 
