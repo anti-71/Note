@@ -1,5 +1,5 @@
 ---
-名称: Γ 函数
+名称: Γ 函数和 B 函数
 节: 高等数学
 tags:
   - 知识点
@@ -22,3 +22,17 @@ $$\Gamma(n+1) = n!$$
 $$
 \Gamma(1)=1,\quad\Gamma(\frac{1}{2})=\sqrt{\pi}
 $$
+
+# B 函数
+
+## 1. 定义
+
+$$
+B(p,q)=\int^{1}_{0}t^{p-1}(1-t)^{q-1}\mathrm{d}t
+$$
+
+其中 $p,\ q>0$
+
+## 2. 与 Γ 函数的关联
+
+$$ B(p,q)=\frac{\Gamma(p)\cdot\Gamma(q)}{\Gamma(p+q)} $$

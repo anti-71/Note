@@ -120,20 +120,12 @@
     "id": "user-1774968597524-07lc"
   },
   {
-    "trigger": "l",
-    "replacement": "\\left",
+    "trigger": "jdz",
+    "replacement": "\\left|$0\\right|",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
     "id": "user-1775139450027-noqj"
-  },
-  {
-    "trigger": "r",
-    "replacement": "\\right",
-    "options": "Tf",
-    "priority": 100,
-    "enabled": true,
-    "id": "user-1775139460959-s3dr"
   },
   {
     "trigger": "3",
