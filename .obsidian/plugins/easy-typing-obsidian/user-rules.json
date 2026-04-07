@@ -128,6 +128,14 @@
     "id": "user-1775139450027-noqj"
   },
   {
+    "trigger": "ul",
+    "replacement": "$\\underline{\\qquad}$$0",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1775536801191-s6z1"
+  },
+  {
     "trigger": "3",
     "replacement": "### ",
     "options": "Tt",
