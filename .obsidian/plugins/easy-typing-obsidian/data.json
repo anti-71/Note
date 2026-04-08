@@ -15,12 +15,25 @@
     {
       "a": "chinese",
       "b": "digit"
+    },
+    {
+      "a": "chinese",
+      "b": "数字序号"
+    },
+    {
+      "a": "english",
+      "b": "数字序号"
     }
   ],
   "PrefixDictionary": "n8n, /[1234][dD]/\npython3, Python3",
   "SoftSpaceLeftSymbols": "-|[].",
   "SoftSpaceRightSymbols": "-|[]",
-  "customScriptCategories": [],
+  "customScriptCategories": [
+    {
+      "name": "数字序号",
+      "pattern": "①②③④⑤⑥⑦⑧⑨"
+    }
+  ],
   "InlineCodeSpaceMode": 1,
   "InlineFormulaSpaceMode": 1,
   "InlineLinkSpaceMode": 0,

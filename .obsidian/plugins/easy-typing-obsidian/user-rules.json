@@ -33,7 +33,7 @@
   },
   {
     "trigger": "lm",
-    "replacement": "\\lim_limits{$0}",
+    "replacement": "\\lim_\\limits{$0}",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
