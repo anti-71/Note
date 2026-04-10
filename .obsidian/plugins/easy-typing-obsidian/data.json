@@ -31,7 +31,7 @@
   "customScriptCategories": [
     {
       "name": "数字序号",
-      "pattern": "①②③④⑤⑥⑦⑧⑨"
+      "pattern": "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳㉑㉒㉓㉔㉕㉖㉗㉘㉙㉚㉛㉜㉝㉞㉟㊱㊲㊳㊴㊵㊶㊷㊸㊹㊺㊻㊼㊽㊾㊿"
     }
   ],
   "InlineCodeSpaceMode": 1,
