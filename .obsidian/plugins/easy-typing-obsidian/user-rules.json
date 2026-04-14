@@ -25,7 +25,7 @@
   },
   {
     "trigger": "f",
-    "replacement": "\\frac{$0}{}",
+    "replacement": "\\dfrac{$0}{}",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
@@ -158,5 +158,13 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1774748429141-sj97"
+  },
+  {
+    "trigger": "6",
+    "replacement": "###### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1776166566621-2s65"
   }
 ]
