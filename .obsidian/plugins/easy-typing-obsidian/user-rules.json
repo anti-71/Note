@@ -136,6 +136,14 @@
     "id": "user-1775536801191-s6z1"
   },
   {
+    "trigger": "sm",
+    "replacement": "\\sum^{\\infty}_{$0}",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1777274702661-yxue"
+  },
+  {
     "trigger": "3",
     "replacement": "### ",
     "options": "Tt",
