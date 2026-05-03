@@ -87,4 +87,11 @@ customTextColor #50416E
             </h3>
         </div>
     </a>
+    <a class="internal-link" href="正确率统计" style="width: 50%; text-decoration: none;">
+        <div style="text-align: center; border: 1.5px solid #83a598; padding: 15px; border-radius: 12px; cursor: pointer; transition: all 0.3s; background-color: rgba(131, 165, 152, 0.05);">
+            <h3 style="margin: 0; color: #83a598; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                <span>📈</span> 正确率统计
+            </h3>
+        </div>
+    </a>
 </div>
