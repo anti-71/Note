@@ -29,7 +29,7 @@ tasks.forEach(t => {
     if (m) stats.minutes += parseInt(m[1]);
 });
 
-const totalScore = (stats.review * 0.1) + (stats.learn * 0.2) + (stats.errors * 5.0) + (stats.minutes * 0.15);
+const totalScore = (stats.review * 0.1) + (stats.learn * 0.2) + (stats.errors * 3.0) + (stats.minutes * 0.15);
 
 // --- 新增：自动更新元数据代码 ---
 const currentFile = app.vault.getAbstractFileByPath(dv.current().file.path);
