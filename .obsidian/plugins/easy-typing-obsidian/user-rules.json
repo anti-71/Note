@@ -144,6 +144,14 @@
     "id": "user-1777274702661-yxue"
   },
   {
+    "trigger": "bs",
+    "replacement": "\\boldsymbol{$0}",
+    "options": "Tf",
+    "priority": 99,
+    "enabled": true,
+    "id": "user-1778314222721-rzn6"
+  },
+  {
     "trigger": "3",
     "replacement": "### ",
     "options": "Tt",
