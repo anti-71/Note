@@ -11,7 +11,8 @@ index: 1
 3. 主对角线上元素全部为 0 的 $n$ 阶上（下）三角矩阵的 $n$ 次幂为零矩阵
 4. 如果方阵 $A$ 可以拆成一非零列 $\alpha$ 与一非零行 $\beta^T$ 的乘积（即秩为 1 的方阵），那么可以利用以下公式计算：
    $$
-    \begin{align*} A^n &= (\alpha\beta^T)^n = (\alpha\beta^T)(\alpha\beta^T)\cdots(\alpha\beta^T) \quad (\text{共}n\text{个}) \\ &= \alpha(\beta^T\alpha)(\beta^T\alpha)\cdots(\beta^T\alpha)\beta^T \\ &= (\beta^T\alpha)^{n-1}\alpha\beta^T = (\beta^T\alpha)^{n-1}A \\
+    \begin{align*} A^n &= (\alpha\beta^T)^n = (\alpha\beta^T)(\alpha\beta^T)\cdots(\alpha\beta^T) \quad (\text{共}\ n\ \text{个}) \\ &= \alpha(\beta^T\alpha)(\beta^T\alpha)\cdots(\beta^T\alpha)\beta^T \\ &= (\beta^T\alpha)^{n-1}\alpha\beta^T \\
+    &= (\beta^T\alpha)^{n-1}A \\
    &= [\text{tr}(A)]^{n-1}A \end{align*} 
    $$
 
