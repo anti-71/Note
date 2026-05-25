@@ -152,6 +152,14 @@
     "id": "user-1778314222721-rzn6"
   },
   {
+    "trigger": "a",
+    "replacement": "\\alpha",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1779698661382-3pmq"
+  },
+  {
     "trigger": "3",
     "replacement": "### ",
     "options": "Tt",
