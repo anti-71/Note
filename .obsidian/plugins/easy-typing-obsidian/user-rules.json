@@ -16,6 +16,38 @@
     "id": "user-1774880915031-djxp"
   },
   {
+    "trigger": "3",
+    "replacement": "### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774748400758-b1h5"
+  },
+  {
+    "trigger": "4",
+    "replacement": "#### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774747943760-v4cw"
+  },
+  {
+    "trigger": "5",
+    "replacement": "##### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774748429141-sj97"
+  },
+  {
+    "trigger": "6",
+    "replacement": "###### ",
+    "options": "Tt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1776166566621-2s65"
+  },
+  {
     "trigger": "dp",
     "replacement": "\\displaystyle",
     "options": "Tf",
@@ -80,7 +112,7 @@
     "id": "user-1774947843019-m2ck"
   },
   {
-    "trigger": "b",
+    "trigger": "ba",
     "replacement": "\\begin{aligned}",
     "options": "Tf",
     "priority": 100,
@@ -88,7 +120,7 @@
     "id": "user-1774948072902-gxrl"
   },
   {
-    "trigger": "e",
+    "trigger": "ea",
     "replacement": "\\end{aligned}",
     "options": "Tf",
     "priority": 100,
@@ -152,6 +184,14 @@
     "id": "user-1778314222721-rzn6"
   },
   {
+    "trigger": "b",
+    "replacement": "\\beta",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1779781090775-4ps6"
+  },
+  {
     "trigger": "a",
     "replacement": "\\alpha",
     "options": "Tf",
@@ -160,35 +200,35 @@
     "id": "user-1779698661382-3pmq"
   },
   {
-    "trigger": "3",
-    "replacement": "### ",
-    "options": "Tt",
+    "trigger": "bc",
+    "replacement": "\\begin{cases}",
+    "options": "Tf",
     "priority": 100,
     "enabled": true,
-    "id": "user-1774748400758-b1h5"
+    "id": "user-1779783282143-f5y5"
   },
   {
-    "trigger": "4",
-    "replacement": "#### ",
-    "options": "Tt",
+    "trigger": "ec",
+    "replacement": "\\end{cases}",
+    "options": "Tf",
     "priority": 100,
     "enabled": true,
-    "id": "user-1774747943760-v4cw"
+    "id": "user-1779783301593-lpa2"
   },
   {
-    "trigger": "5",
-    "replacement": "##### ",
-    "options": "Tt",
+    "trigger": "bp",
+    "replacement": "\\begin{pmatrix}",
+    "options": "Tf",
     "priority": 100,
     "enabled": true,
-    "id": "user-1774748429141-sj97"
+    "id": "user-1779783322559-aqiy"
   },
   {
-    "trigger": "6",
-    "replacement": "###### ",
-    "options": "Tt",
+    "trigger": "ep",
+    "replacement": "\\end{pmatrix}",
+    "options": "Tf",
     "priority": 100,
     "enabled": true,
-    "id": "user-1776166566621-2s65"
+    "id": "user-1779783340559-dxn0"
   }
 ]
