@@ -115,7 +115,7 @@
     "trigger": "ba",
     "replacement": "\\begin{aligned}",
     "options": "Tf",
-    "priority": 100,
+    "priority": 99,
     "enabled": true,
     "id": "user-1774948072902-gxrl"
   },
@@ -123,7 +123,7 @@
     "trigger": "ea",
     "replacement": "\\end{aligned}",
     "options": "Tf",
-    "priority": 100,
+    "priority": 99,
     "enabled": true,
     "id": "user-1774948090702-l2yq"
   },
