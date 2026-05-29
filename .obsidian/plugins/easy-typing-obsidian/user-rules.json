@@ -203,7 +203,7 @@
     "trigger": "bc",
     "replacement": "\\begin{cases}",
     "options": "Tf",
-    "priority": 100,
+    "priority": 99,
     "enabled": true,
     "id": "user-1779783282143-f5y5"
   },
@@ -211,7 +211,7 @@
     "trigger": "ec",
     "replacement": "\\end{cases}",
     "options": "Tf",
-    "priority": 100,
+    "priority": 99,
     "enabled": true,
     "id": "user-1779783301593-lpa2"
   },
@@ -230,5 +230,13 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1779783340559-dxn0"
+  },
+  {
+    "trigger": "l",
+    "replacement": "\\lambda",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1780038642930-4m6g"
   }
 ]
