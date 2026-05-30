@@ -21,7 +21,7 @@ index: 4
 
 ###### 定理 3
 
-总存在正交矩阵 $Q$，使得 $Q^TAQ = Q^{-1}AQ = \text{diag}(\lambda_1,\lambda_2,\dots,\lambda_n)$
+总存在正交矩阵 $\boldsymbol{Q}$，使得 $\boldsymbol{Q^TAQ} = \boldsymbol{Q^{-1}AQ} = \text{diag}(\lambda_1,\lambda_2,\dots,\lambda_n)$
 
 > [!note]
 > 实对称矩阵的秩 = 非零特征值的个数

@@ -225,7 +225,7 @@
   },
   {
     "trigger": "ep",
-    "replacement": "\\end{pmatrix}",
+    "replacement": "$0\\end{pmatrix}",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
@@ -238,5 +238,13 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1780038642930-4m6g"
+  },
+  {
+    "trigger": "g",
+    "replacement": "\\gamma",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1780124637263-ygnq"
   }
 ]
