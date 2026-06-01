@@ -1,5 +1,13 @@
 [
   {
+    "trigger": "b",
+    "replacement": "\\boldsymbol{${0:${SEL}}}",
+    "options": "sf",
+    "priority": 99,
+    "enabled": true,
+    "id": "user-1778314222721-rzn6"
+  },
+  {
     "trigger": "、",
     "replacement": "\\",
     "options": "f",
@@ -176,14 +184,6 @@
     "id": "user-1777274702661-yxue"
   },
   {
-    "trigger": "bs",
-    "replacement": "\\boldsymbol{$0}",
-    "options": "Tf",
-    "priority": 99,
-    "enabled": true,
-    "id": "user-1778314222721-rzn6"
-  },
-  {
     "trigger": "b",
     "replacement": "\\beta",
     "options": "Tf",
@@ -209,7 +209,7 @@
   },
   {
     "trigger": "ec",
-    "replacement": "\\end{cases}",
+    "replacement": "$0\\end{cases}",
     "options": "Tf",
     "priority": 99,
     "enabled": true,
@@ -246,5 +246,21 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1780124637263-ygnq"
+  },
+  {
+    "trigger": "bs",
+    "replacement": "\\boldsymbol{$0}",
+    "options": "Tf",
+    "priority": 99,
+    "enabled": true,
+    "id": "user-1780300523560-ca0x"
+  },
+  {
+    "trigger": "e",
+    "replacement": "\\eta",
+    "options": "Tf",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1780304034786-qxxm"
   }
 ]
