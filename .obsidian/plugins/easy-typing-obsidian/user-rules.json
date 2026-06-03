@@ -121,19 +121,11 @@
   },
   {
     "trigger": "ba",
-    "replacement": "\\begin{aligned}",
+    "replacement": "\\begin{aligned}$0\\end{aligned}",
     "options": "Tf",
     "priority": 99,
     "enabled": true,
     "id": "user-1774948072902-gxrl"
-  },
-  {
-    "trigger": "ea",
-    "replacement": "\\end{aligned}",
-    "options": "Tf",
-    "priority": 99,
-    "enabled": true,
-    "id": "user-1774948090702-l2yq"
   },
   {
     "trigger": "j",
@@ -201,35 +193,19 @@
   },
   {
     "trigger": "bc",
-    "replacement": "\\begin{cases}",
+    "replacement": "\\begin{cases}$0\\end{cases}",
     "options": "Tf",
     "priority": 99,
     "enabled": true,
     "id": "user-1779783282143-f5y5"
   },
   {
-    "trigger": "ec",
-    "replacement": "$0\\end{cases}",
+    "trigger": "bp",
+    "replacement": "\\begin{pmatrix}$0\\end{pmatrix}",
     "options": "Tf",
     "priority": 99,
     "enabled": true,
-    "id": "user-1779783301593-lpa2"
-  },
-  {
-    "trigger": "bp",
-    "replacement": "\\begin{pmatrix}",
-    "options": "Tf",
-    "priority": 100,
-    "enabled": true,
     "id": "user-1779783322559-aqiy"
-  },
-  {
-    "trigger": "ep",
-    "replacement": "$0\\end{pmatrix}",
-    "options": "Tf",
-    "priority": 100,
-    "enabled": true,
-    "id": "user-1779783340559-dxn0"
   },
   {
     "trigger": "l",
@@ -262,5 +238,13 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1780304034786-qxxm"
+  },
+  {
+    "trigger": "bv",
+    "replacement": "\\begin{vmatrix}$0\\end{vmatrix}",
+    "options": "Tf",
+    "priority": 99,
+    "enabled": true,
+    "id": "user-1780469928816-u44o"
   }
 ]
