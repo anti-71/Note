@@ -3,65 +3,65 @@ const categories = ["英语", "数学", "408", "Anki", "本科学习"];
 const selectedCat = await tp.system.suggester(categories, categories);
 if (!selectedCat) return;
 let finalContent = "";
+
 if (selectedCat === "英语") {
-const items = [
-{ d: "背单词", v: "英语-背单词: 复习   词, 学   词" },
-{ d: "外刊", v: "英语-外刊:   篇,   分钟" },
-{ d: "网课", v: "英语-网课:   节,   分钟" },
-{ d: "做题", type: "task" }
-];
-const selected = await tp.system.suggester(items.map(i => i.d), items);
-if (!selected) return;
-
-if (selected.type === "task") {
-    const bookName = await tp.system.prompt("请输入书名");
-    finalContent = `英语-做题: ${bookName}: [章节] (  /  ),   分钟`;
-} else {
-    finalContent = selected.v;
-}
+    const items = [
+        { d: "背单词", v: "英语-背单词: 复习   词, 学   词" },
+        { d: "外刊", v: "英语-外刊:   篇,   分钟" },
+        { d: "网课", v: "英语-网课:   节,   分钟" },
+        { d: "做题", type: "task" }
+    ];
+    const selected = await tp.system.suggester(items.map(i => i.d), items);
+    if (!selected) return;
+    if (selected.type === "task") {
+        const bookName = await tp.system.prompt("请输入书名");
+        finalContent = `英语-做题: ${bookName}: [章节] (  /  ),   分钟`;
+    } else {
+        finalContent = selected.v;
+    }
 } else if (selectedCat === "数学") {
-const subSubjects = ["高数", "线代", "概率论"];
-const sub = await tp.system.suggester(subSubjects, subSubjects);
-if (!sub) return;
+    const subSubjects = ["高数", "线代", "概率论", "套卷"];
+    const sub = await tp.system.suggester(subSubjects, subSubjects);
+    if (!sub) return;
 
-const items = [
-    { d: "做题", type: "task" },
-    { d: "网课", v: `数学-${sub}-网课:   节,   分钟` },
-    { d: "错题整理", v: `数学-${sub}-错题整理:   题` }
-];
-const selected = await tp.system.suggester(items.map(i => i.d), items);
-if (!selected) return;
+    const items = [{ d: "做题", type: "task" }];
+    if (sub !== "套卷") {
+        items.push({ d: "网课", v: `数学-${sub}-网课:   节,   分钟` });
+    }
+    items.push({ d: "错题整理", v: `数学-${sub}-错题整理:   题` });
 
-if (selected.type === "task") {
-    const bookName = await tp.system.prompt("请输入书名");
-    finalContent = `数学-${sub}-做题: ${bookName}: [章节] (  /  ),   分钟`;
-} else {
-    finalContent = selected.v;
-}
+    const selected = await tp.system.suggester(items.map(i => i.d), items);
+    if (!selected) return;
+    if (selected.type === "task") {
+        const bookName = await tp.system.prompt(sub === "套卷" ? "请输入试卷名称" : "请输入书名");
+        finalContent = `数学-${sub}-做题: ${bookName}: [章节] (  /  ),   分钟`;
+    } else {
+        finalContent = selected.v;
+    }
 } else if (selectedCat === "408") {
-const subjects = ["数据结构", "计算机组成原理", "操作系统", "计算机网络"];
-const sub = await tp.system.suggester(subjects, subjects);
-if (!sub) return;
-const types = [
-{ d: "网课", v: `408-${sub}-网课:   节,   分钟` },
-{ d: "做题", type: "task" }
-];
-const selected = await tp.system.suggester(types.map(i => i.d), types);
-if (!selected) return;
-
-if (selected.type === "task") {
-    const bookName = await tp.system.prompt("请输入书名");
-    finalContent = `408-${sub}-做题: ${bookName}: [章节] (  /  ),   分钟`;
-} else {
-    finalContent = selected.v;
-}
+    const subjects = ["数据结构", "计算机组成原理", "操作系统", "计算机网络"];
+    const sub = await tp.system.suggester(subjects, subjects);
+    if (!sub) return;
+    const types = [
+        { d: "网课", v: `408-${sub}-网课:   节,   分钟` },
+        { d: "做题", type: "task" }
+    ];
+    const selected = await tp.system.suggester(types.map(i => i.d), types);
+    if (!selected) return;
+    if (selected.type === "task") {
+        const bookName = await tp.system.prompt("请输入书名");
+        finalContent = `408-${sub}-做题: ${bookName}: [章节] (  /  ),   分钟`;
+    } else {
+        finalContent = selected.v;
+    }
 } else if (selectedCat === "Anki") {
-finalContent = "Anki:   分钟";
+    finalContent = "Anki:   分钟";
 } else if (selectedCat === "本科学习") {
-const courseName = await tp.system.prompt("请输入本科科目名称");
-finalContent = `本科学习-${courseName}:   分钟`;
+    const courseName = await tp.system.prompt("请输入本科科目名称");
+    finalContent = `本科学习-${courseName}:   分钟`;
 }
+
 if (finalContent) {
-return `- [ ] ${finalContent}`;
+    return `- [ ] ${finalContent}`;
 }
 %>
