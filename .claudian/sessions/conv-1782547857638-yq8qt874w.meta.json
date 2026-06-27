@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782547857638-yq8qt874w",
+  "providerId": "claude",
+  "title": "Clarify AI model identity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782547857639,
+  "updatedAt": 1782549781928,
+  "lastResponseAt": 1782549752864,
+  "sessionId": "fad9b990-8b81-4eda-b288-3e431c73f7c9",
+  "providerState": {
+    "providerSessionId": "fad9b990-8b81-4eda-b288-3e431c73f7c9"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 1796,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 54656,
+    "contextWindow": 200000,
+    "contextTokens": 56452,
+    "percentage": 28,
+    "contextWindowIsAuthoritative": true
+  }
+}
