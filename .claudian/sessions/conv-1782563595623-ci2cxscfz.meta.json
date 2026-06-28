@@ -1,0 +1,319 @@
+{
+  "id": "conv-1782563595623-ci2cxscfz",
+  "providerId": "claude",
+  "title": "Write a local skill",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782563595624,
+  "updatedAt": 1782609117366,
+  "lastResponseAt": 1782609088445,
+  "sessionId": "a51cc3ef-3948-4221-9e0c-a5227f5e0fe9",
+  "providerState": {
+    "providerSessionId": "a51cc3ef-3948-4221-9e0c-a5227f5e0fe9",
+    "subagentData": {
+      "call_00_WNtxT8KU55CidJNv8DBZ9227": {
+        "id": "call_00_WNtxT8KU55CidJNv8DBZ9227",
+        "description": "Search vault for 几何重数",
+        "prompt": "Search the vault for notes related to \"几何重数\" (geometric multiplicity). Look for files containing this term, in filenames, and in related directories like 考研/数学/02 线性代数/ or similar. List any matching files with their paths and a brief excerpt of relevant content. Be thorough - check content within files too.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_B3yo21VvlO8LlZ4stIx87191",
+            "name": "Bash",
+            "input": {
+              "command": "find /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note -type f -name \"*.md\" | head -50",
+              "description": "List some markdown files to understand structure"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/正确率统计.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/Prompt.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/影视书籍管理.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/🏠 Home.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/.claude/CLAUDE.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/Claudian Memory/🧠 核心记忆.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Weekly Learning Plan.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Quarterly Learning Plan.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Open Study Note.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Monthly Learning Plan.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/电影.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Daily Learning Plan.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/书籍.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Study Task Generator.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/电视剧.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Insert Callouts.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/Tools/模板/Learning Plan Generator.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/movie/神探夏洛克：可恶的新娘.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/神探夏洛克第三季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/神探夏洛克第四季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/斯特莱克探案集：布谷鸟的呼唤第一季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/猫头鹰谋杀案.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/喜鹊谋杀案.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/斯特莱克探案集：罪恶生涯第三季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/斯特莱克探案集：蚕第二季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/斯特莱克探案集：致命之白第四季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/神探夏洛克第二季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/影视书籍/teleplay/神探夏洛克第一季.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/本科/索引/本科学习-学科导航.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/00 索引/408-学科导航.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（一）大纲样题 第 44 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2013 年新题型 第 42 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/七选五 - 做题步骤.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（一）大纲样题 - 选项.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（二）大纲样题 第 42 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2008 年新题型 第 43 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（一）2007 年 第 45 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2010 年新题型 选项 D.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/小标题题 - 做题思路.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（一）2007 年 第 44 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（二）大纲样题 第 43 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2008 年新题型 第 42 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2010 年新题型 选项 E.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2008 年新题型 选项.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2013 年新题型 第 43 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/英（一）大纲样题 第 45 题.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2010 年新题型 选项 A.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2013 年新题型 选项.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型/2008 年新题型 第 45 题.md"
+          },
+          {
+            "id": "call_01_HzC7SWNxqIdUCiqDlSKA8448",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rl \"几何重数\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ --include=\"*.md\" 2>/dev/null",
+              "description": "Search file contents for 几何重数"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_02_ggCNSo2RMxzAKyFdb1bi6518",
+            "name": "Bash",
+            "input": {
+              "command": "find /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note -type f -name \"*几何重数*\" 2>/dev/null",
+              "description": "Search filenames for 几何重数"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_03_y4yE0ZAEa0l2zn7zkyLz8927",
+            "name": "Bash",
+            "input": {
+              "command": "find /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note -type d -name \"*考研*\" -o -type d -name \"*线性代数*\" 2>/dev/null",
+              "description": "Find directories related to 考研/线性代数"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数"
+          },
+          {
+            "id": "call_00_LLHkaSbRNvfM7TloOt9A0437",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数\" -type f 2>/dev/null",
+              "description": "List all files in the 线性代数 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<persisted-output>\nOutput too large (35.4KB). Full output saved to: /Users/jeunesse/.claude/projects/-Users-jeunesse-Library-Mobile-Documents-iCloud-md-obsidian-Documents-Note/a51cc3ef-3948-4221-9e0c-a5227f5e0fe9/tool-results/by0f4by11.txt\n\nPreview (first 2KB):\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/第一节 行列式的定义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/具体行列式的计算.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-4.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-5.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/抽象行列式的计算.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-1.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/范德蒙，拉普拉斯公式.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-13.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/n 阶行列式的定义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/行列式的常用公式.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-12.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-8.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-11.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-10.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-9.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/例 B2-6.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/行列式的性质.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式/排列与逆序.md\n...\n</persisted-output>"
+          },
+          {
+            "id": "call_01_hxpze67fnqkxAHAltj7O7816",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rl \"几何重\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ --include=\"*.md\" 2>/dev/null",
+              "description": "Search for 几何重 (partial) in all markdown files"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_02_NkRpgrZVw0q121MKd57Q8445",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rl \"重数\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ --include=\"*.md\" 2>/dev/null",
+              "description": "Search for 重数 in all markdown files"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵的正交相似对角化.md"
+          },
+          {
+            "id": "call_00_lz1xPFBzEpPWCCOuPY025567",
+            "name": "Bash",
+            "input": {
+              "command": "grep -n \"重数\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md\"",
+              "description": "Show lines with 重数 in properties file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "11:$n$ 阶方阵 $A$ 的特征值（算上重数）一共有 $n$ 个，且特征值之和等于 $A$ 的对角线元素之和（称为 **迹**，记为 $\\mathrm{tr}(A)$），即："
+          },
+          {
+            "id": "call_01_UcTpCl6d1wMRWKgJRIQ98306",
+            "name": "Bash",
+            "input": {
+              "command": "grep -n \"重数\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵的正交相似对角化.md\"",
+              "description": "Show lines with 重数 in diagonalization file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "11:1. 求出 $\\boldsymbol{A}$ 的所有互不相同的特征值 $\\lambda_1,\\lambda_2,\\dots,\\lambda_s$，设它们的重数依次为 $k_1,k_2,\\dots,k_s$（$k_1+k_2+\\dots+k_s=n$）"
+          },
+          {
+            "id": "call_02_bOOZnZqIksEyal46Xmii7582",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量\" -type f 2>/dev/null",
+              "description": "List all files in the 特征值与特征向量 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-12.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-16.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的判定 - 总结.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的求解.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-17.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/第二节 矩阵的相似与对角化.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-13.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的定义与性质.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-18.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-5.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵的合同.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-1.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的定义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/施密特正交化与正交矩阵.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵的正交相似对角化.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-19.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-4.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵三大变换总结.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-3.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-7.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/第三节 实对称矩阵.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-6.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的判定.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/相似的性质.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-2.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-14.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/第四节 矩阵三大变换总结.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-20.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的定义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-9.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-10.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵（Aᵀ = A）的性质与对角化.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-11.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/齐次线性方程组的解与其行向量组的正交性.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/强化题型总结五.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/第一节 特征值与特征向量的定义与性质.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-15.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-8.md"
+          },
+          {
+            "id": "call_03_evWbH8xJqqPszVOOz1xX7265",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rl \"代数重\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ --include=\"*.md\" 2>/dev/null",
+              "description": "Search for 代数重 (algebraic multiplicity) in all files"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_00_dSHrB25NtJg8kcUVDrUK5601",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"特征向量.*个数\\|线性无关的特征向量\\|几何重\\|特征向量.*无关\\|n-r\\|dim\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/\" --include=\"*.md\" 2>/dev/null | head -40",
+              "description": "Search for geometric multiplicity related terms in the eigenvector directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的求解.md:27:由 $(\\lambda_i E - A)\\boldsymbol{x} = 0$ 求基础解系，即矩阵 $A$ 属于特征值 $\\lambda_i$ 的线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的求解.md:30:> 1. 特征向量一旦存在则一定是无穷多个，只不过人们往往取其一个极大无关组（齐次方程组的基础解系）\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-13.md:41:又因为 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\boldsymbol{\\alpha}_3$ 分别是 3 个不同特征值对应的特征向量，所以它们必线性无关，从而\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-13.md:57:根据[[特征值与特征向量的性质#定理 2|特征值与特征向量的性质]]，$\\lambda_{A-E}$ = -2，-1，0，则 $\\boldsymbol{A-E}$ 可对角化（特征值互不相同），因而 $R(\\boldsymbol{A-E})$ = 2（非零特征值的个数），$\\lambda_{A+2E}$ = 1，2，3，故 $|\\boldsymbol{A+2E}|=6$\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md:45:$1 \\leqslant$ 任意 $k$ 重特征值对应的无关特征向量的个数 $\\leqslant k$（无须证明） \n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md:49:1 重特征值 $\\lambda$ 对应 1 个无关的特征向量，即 $(A - \\lambda E)\\boldsymbol{x} = 0$ 的基础解系只有 1 个无关的向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md:53:不同特征值对应的无关特征向量线性无关\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md:56:> 1. 设 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_m$ 是矩阵 $A$ 的互异特征值，$\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\cdots,\\boldsymbol{\\alpha}_m$ 是 $A$ 分别对应于这些特征值的特征向量， 则 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\cdots,\\boldsymbol{\\alpha}_m$ 线性无关\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md:57:> 2. 设 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_k$ 是矩阵 $A$ 的互异特征值，$\\boldsymbol{\\alpha}_{i1},\\boldsymbol{\\alpha}_{i2},\\cdots,\\boldsymbol{\\alpha}_{ir_i}(i=1,2,\\cdots,k)$ 是 $A$ 分别对应于特征值 $\\lambda_i$ 的线性无关的特征向量， 则 $\\boldsymbol{\\alpha}_{11},\\cdots,\\boldsymbol{\\alpha}_{1r_1},\\cdots,\\boldsymbol{\\alpha}_{k1},\\cdots,\\boldsymbol{\\alpha}_{kr_k}$ 也线性无关\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵的正交相似对角化.md:12:2. 对每一个 $k_i$ 重特征值 $\\lambda_i$，求出方程组 $(\\boldsymbol{A}-\\lambda_i\\boldsymbol{E})\\boldsymbol{x}=\\boldsymbol{0}$ 的基础解系，得到 $k_i$ 个线性无关的特征向量，再将其正交化、单位化，便可得到 $k_i$ 个两两正交的单位特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-4.md:9:> 设 $\\boldsymbol{A}$ 为 3 阶矩阵，$\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2$ 为 $\\boldsymbol{A}$ 的属于特征值 1 的线性无关的特征向量，$\\boldsymbol{\\alpha}_3$ 为 $\\boldsymbol{A}$ 的属于特征值 -1 的特征向量，则满足 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\begin{pmatrix}1&0&0\\\\0&-1&0\\\\0&0&1\\end{pmatrix}$ 的可逆矩阵 $\\boldsymbol{P}$ 为（）\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-7.md:23:根据[[矩阵相似对角化的判定与求解#定理 1|对角化的判定]]，对于 $\\lambda_1=\\lambda_2=2$，有 2 个线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-7.md:25:由 $2\\boldsymbol{E}-\\boldsymbol{A}=\\begin{pmatrix}0&0&0\\\\0&0&-1\\\\0&0&1\\end{pmatrix}\\to\\begin{pmatrix}0&0&0\\\\0&0&0\\\\0&0&1\\end{pmatrix}$，知 $R(2\\boldsymbol{E}-\\boldsymbol{A})=1$，故 $\\boldsymbol{A}$ 的二重特征值 2 对应两个线性无关的特征向量，即 $\\boldsymbol{A}\\sim \\boldsymbol{C}$\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-7.md:27:由 $2\\boldsymbol{E}-\\boldsymbol{B}=\\begin{pmatrix}0&-1&0\\\\0&0&0\\\\0&0&1\\end{pmatrix}\\to\\begin{pmatrix}0&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$，知 $R(2\\boldsymbol{E}-\\boldsymbol{B})=2$，故 $\\boldsymbol{B}$ 的二重特征值 2 对应一个线性无关的特征向量，故 $\\boldsymbol{B}$ 与 $\\boldsymbol{C}$ 不相似，（B）正确\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-14.md:15:由 $\\boldsymbol{A}$ 有 $n$ 个不同的特征值，不妨设 $\\boldsymbol{A\\alpha}_i=\\lambda_i\\boldsymbol{\\alpha}_i\\ (i=1,2,\\cdots,n)$，$\\lambda_i$ 互不相同，根据[[特征值与特征向量的性质#定理 4|特征值的性质]]可知 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\cdots,\\boldsymbol{\\alpha}_n$ 线性无关\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-14.md:53:又因为 $\\boldsymbol{A}$ 有 $n$ 个不同的特征值，$\\lambda_i$ 是一重特征值，根据[[特征值与特征向量的性质#推论|特征值的特征向量的性质]]，$\\lambda_i$ 对应的线性无关的特征向量只有一个，即方程组 $(\\boldsymbol{A}-\\lambda_i\\boldsymbol{E})\\boldsymbol{x}=\\boldsymbol{0}$ 的基础解系中只有一个无关的向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-10.md:37:求得 $\\boldsymbol{\\xi}_2=(2,1,0)^\\mathrm{T}$ 和 $\\boldsymbol{\\xi}_3=(-3,0,1)^\\mathrm{T}$ 为 $(\\boldsymbol{E-A})\\boldsymbol{x}=\\boldsymbol{0}$ 的一个基础解系，$(2,1,0)^\\mathrm{T}$ 和 $(-3,0,1)^\\mathrm{T}$ 为 $\\boldsymbol{A}$ 的属于特征值 1 的两个线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵（Aᵀ = A）的性质与对角化.md:20:实对称矩阵对应于不同特征值的特征向量不但无关，且正交，即若 $A\\boldsymbol{\\alpha}_1 = \\lambda_1\\boldsymbol{\\alpha}_1,A\\boldsymbol{\\alpha}_2 = \\lambda_2\\boldsymbol{\\alpha}_2,\\lambda_1 \\neq \\lambda_2$，则 $\\boldsymbol{\\alpha}_1^T\\boldsymbol{\\alpha}_2 = \\boldsymbol{\\alpha}_2^T\\boldsymbol{\\alpha}_1 = 0$\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md:22:$\\boldsymbol{A}$ 可对角化 $\\iff$ 有 $n$ 个线性无关的特征向量 $\\iff\\boldsymbol{A}$ 的每个 $k_i$ 重特征值都有 $k_i$ 个线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md:30:2. 求出对应的特征向量，检查是否有 $n$ 个线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md:36:3. 将所有线性无关的特征向量排列成矩阵 $\\boldsymbol{P} = (\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\dots, \\boldsymbol{\\alpha}_n)$，并将对应的特征值组成对角矩阵 $\\boldsymbol{\\Lambda}=\\begin{pmatrix}\\lambda_1&&\\\\&\\lambda_2&\\space\\\\&&\\ddots&\\\\&&&\\lambda_n\\end{pmatrix}$，则有 $\\boldsymbol{P^{-1}AP = \\Lambda}$"
+          },
+          {
+            "id": "call_01_J0LnON2hcLFWP2t0sqzX2199",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"重数\\|特征值.*重\\|k_i\\|k_1.*k_2\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/第二节 矩阵的相似与对角化.md\" 2>/dev/null",
+              "description": "Search multiplicity in similarity/diagonalization section"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_02_10W714GIoamvSAEAYraB9335",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"重数\\|特征向量.*个数\\|无关.*特征向量\\|n-r\\|dim\\|几何\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md\" 2>/dev/null",
+              "description": "Search multiplicity in diagonalization file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md:22:$\\boldsymbol{A}$ 可对角化 $\\iff$ 有 $n$ 个线性无关的特征向量 $\\iff\\boldsymbol{A}$ 的每个 $k_i$ 重特征值都有 $k_i$ 个线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md:30:2. 求出对应的特征向量，检查是否有 $n$ 个线性无关的特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md:36:3. 将所有线性无关的特征向量排列成矩阵 $\\boldsymbol{P} = (\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\dots, \\boldsymbol{\\alpha}_n)$，并将对应的特征值组成对角矩阵 $\\boldsymbol{\\Lambda}=\\begin{pmatrix}\\lambda_1&&\\\\&\\lambda_2&\\space\\\\&&\\ddots&\\\\&&&\\lambda_n\\end{pmatrix}$，则有 $\\boldsymbol{P^{-1}AP = \\Lambda}$"
+          },
+          {
+            "id": "call_00_Abt0Hs1bYvs3jVqrzyjO9070",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 特征值与特征向量的性质\n3\t章: 第五章 特征值与特征向量\n4\t节: \"[[第一节 特征值与特征向量的定义与性质]]\"\n5\ttags:\n6\t  - 知识点\n7\tindex: 3\n8\t---\n9\t##### 定理 1\n10\t\n11\t$n$ 阶方阵 $A$ 的特征值（算上重数）一共有 $n$ 个，且特征值之和等于 $A$ 的对角线元素之和（称为 **迹**，记为 $\\mathrm{tr}(A)$），即：\n12\t\n13\t$$\\sum_{i=1}^n \\lambda_i = \\sum_{i=1}^n a_{ii} = \\mathrm{tr}(A)$$\n14\t\n15\t特征值之积等于 $A$ 的行列式 $|A|$，即 $\\displaystyle\\prod_{i=1}^n \\lambda_i = |A|$\n16\t\n17\t> [!note]\n18\t> $A$ 特征值 $\\lambda_i$ 均 $\\neq 0 \\iff |A| \\neq 0 \\iff A$ 可逆 $\\iff R(A) = n$\n19\t>\n20\t> $A$ 至少有一个特征值 $= 0 \\iff |A| = 0 \\iff A$ 不可逆 $\\iff R(A) < n$\n21\t\n22\t##### 定理 2\n23\t\n24\t设 $A$ 是 $n$ 阶方阵，如 $A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} \\ (\\boldsymbol{\\alpha} \\neq 0)$，则必有：\n25\t\n26\t$$f(A)\\boldsymbol{\\alpha} = f(\\lambda)\\boldsymbol{\\alpha}$$\n27\t\n28\t其中 $f(A) = a_kA^k + a_{k-1}A^{k-1} + \\dots + a_1A + a_0E$ 为多项式矩阵，即\n29\t\n30\t$$\n31\tA\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} \\implies f(A)\\boldsymbol{\\alpha} = f(\\lambda)\\boldsymbol{\\alpha} = (a_k\\lambda^k + a_{k-1}\\lambda^{k-1} + \\dots + a_1\\lambda + a_0)\\boldsymbol{\\alpha}\\ (\\boldsymbol{\\alpha} \\neq 0)\n32\t$$\n33\t\n34\t> [!note]\n35\t> 此结论不能倒推\n36\t>\n37\t> 如果 $A$ 是可逆矩阵，则 $A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} \\implies A^{-1}\\boldsymbol{\\alpha} = \\dfrac{1}{\\lambda}\\boldsymbol{\\alpha} (\\boldsymbol{\\alpha} \\neq 0)$\n38\t>\n39\t> 当然也有 $A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} (\\boldsymbol{\\alpha} \\neq 0) \\implies f(A^{-1})\\boldsymbol{\\alpha} = f\\left( \\dfrac{1}{\\lambda} \\right)\\boldsymbol{\\alpha}$\n40\t>\n41\t> $A$ 与 $A^T$ 有相同的特征值，特征向量不一定相同\n42\t\n43\t##### 定理 3\n44\t\n45\t$1 \\leqslant$ 任意 $k$ 重特征值对应的无关特征向量的个数 $\\leqslant k$（无须证明） \n46\t\n47\t###### 推论\n48\t\n49\t1 重特征值 $\\lambda$ 对应 1 个无关的特征向量，即 $(A - \\lambda E)\\boldsymbol{x} = 0$ 的基础解系只有 1 个无关的向量\n50\t\n51\t##### 定理 4\n52\t\n53\t不同特征值对应的无关特征向量线性无关\n54\t\n55\t> [!note] \n56\t> 1. 设 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_m$ 是矩阵 $A$ 的互异特征值，$\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\cdots,\\boldsymbol{\\alpha}_m$ 是 $A$ 分别对应于这些特征值的特征向量， 则 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\cdots,\\boldsymbol{\\alpha}_m$ 线性无关\n57\t> 2. 设 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_k$ 是矩阵 $A$ 的互异特征值，$\\boldsymbol{\\alpha}_{i1},\\boldsymbol{\\alpha}_{i2},\\cdots,\\boldsymbol{\\alpha}_{ir_i}(i=1,2,\\cdots,k)$ 是 $A$ 分别对应于特征值 $\\lambda_i$ 的线性无关的特征向量， 则 $\\boldsymbol{\\alpha}_{11},\\cdots,\\boldsymbol{\\alpha}_{1r_1},\\cdots,\\boldsymbol{\\alpha}_{k1},\\cdots,\\boldsymbol{\\alpha}_{kr_k}$ 也线性无关\n58\t\n59\t##### 定理 5\n60\t\n61\t若 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2$ 是矩阵 $A$ 对应于特征值 $\\lambda$ 的无关特征向量，则对任意不全为 0 的实数 $k_1,k_2$，$k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2$ 仍然是 $A$ 对应于 $\\lambda$ 的特征向量\n62\t\n63\t若 $\\boldsymbol{\\alpha}_1$ 是矩阵 $A$ 对应于特征值 $\\lambda_1$ 的特征向量，$\\boldsymbol{\\alpha}_2$ 是矩阵 $A$ 对应于特征值 $\\lambda_2$ 的特征向量，且 $\\lambda_1 \\neq \\lambda_2$，则对任意实数 $k_1 \\neq 0,k_2 \\neq 0$，$k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2$ 一定不为 $A$ 的特征向量\n64\t\n65\t##### 定理 6\n66\t\n67\t设 $A,B$ 是同阶方阵，则 $AB$ 与 $BA$ 有相同的特征值\n68\t"
+          },
+          {
+            "id": "call_01_ZGYNq2jBTJTWMq14OkUA2837",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 矩阵相似对角化的判定与求解\n3\t章: 第五章 特征值与特征向量\n4\t节: \"[[第二节 矩阵的相似与对角化]]\"\n5\ttags:\n6\t  - 知识点\n7\tindex: 3\n8\t---\n9\t##### 1）矩阵可相似对角化的定义 \n10\t\n11\t如果方阵 $A$ 可以与对角矩阵相似，即存在可逆矩阵 $P$，使得 $P^{-1}AP = \\Lambda$（$\\Lambda$ 为对角矩阵），则称 $A$ **可对角化**\n12\t\n13\t##### 2）矩阵可相似对角化的作用 \n14\t\n15\t1. $A$ 的特征值与秩一目了然：$\\Lambda=\\begin{pmatrix}\\lambda_1&&\\\\&\\lambda_2&\\space\\\\&&\\ddots&\\\\&&&\\lambda_n\\end{pmatrix}$\n16\t2. 倒求 $A$、$A^n$ 与 $f(A)$\n17\t\n18\t##### 3）矩阵可相似对角化的充要条件 \n19\t\n20\t###### 定理 1\n21\t\n22\t$\\boldsymbol{A}$ 可对角化 $\\iff$ 有 $n$ 个线性无关的特征向量 $\\iff\\boldsymbol{A}$ 的每个 $k_i$ 重特征值都有 $k_i$ 个线性无关的特征向量\n23\t\n24\t> [!note]\n25\t> 如果 $\\boldsymbol{A}$ 的特征值都是 1 重的，则 $\\boldsymbol{A}$ 必可对角化\n26\t\n27\t##### 4）判断具体矩阵是否可对角化以及求可逆矩阵 $\\boldsymbol{P}$ 的常规步骤 \n28\t\n29\t1. 求出 $\\boldsymbol{A}$ 的所有特征值\n30\t2. 求出对应的特征向量，检查是否有 $n$ 个线性无关的特征向量\n31\t\n32\t   如果没有，则矩阵 $\\boldsymbol{A}$ 不可对角化；\n33\t\n34\t   如果有，则继续以下步骤\n35\t\n36\t3. 将所有线性无关的特征向量排列成矩阵 $\\boldsymbol{P} = (\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\dots, \\boldsymbol{\\alpha}_n)$，并将对应的特征值组成对角矩阵 $\\boldsymbol{\\Lambda}=\\begin{pmatrix}\\lambda_1&&\\\\&\\lambda_2&\\space\\\\&&\\ddots&\\\\&&&\\lambda_n\\end{pmatrix}$，则有 $\\boldsymbol{P^{-1}AP = \\Lambda}$\n37\t\n38\t> [!note]\n39\t> 可逆矩阵 $\\boldsymbol{P}$ 不是唯一的，对角矩阵 $\\boldsymbol{\\Lambda}$ 也不是唯一的，但 $\\boldsymbol{P}$ 中的特征向量和 $\\boldsymbol{\\Lambda}$ 中的特征值必须一一对应"
+          },
+          {
+            "id": "call_00_szSbZBWp3bfwhVRX5GbP7795",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"重数\\|dim\\|特征向量\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的判定.md\" 2>/dev/null",
+              "description": "Search multiplicity in similarity determination file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的判定.md:3:章: 第五章 特征值与特征向量"
+          },
+          {
+            "id": "call_01_FPs3hM8A74BPenXgpCyQ0883",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"重数\\|dim\\|特征向量\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的判定 - 总结.md\" 2>/dev/null",
+              "description": "Search multiplicity in similarity summary file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似的判定 - 总结.md:3:章: 第五章 特征值与特征向量"
+          },
+          {
+            "id": "call_02_yCCMk7VGzH1omVgaAlDT1760",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"重数\\|特征向量个数\\|dim\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/强化题型总结五.md\" 2>/dev/null",
+              "description": "Search multiplicity in summary file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_03_V6OfdNsY0D3RqjIXBrUI5355",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rn \"几何重\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ --include=\"*.md\" 2>/dev/null",
+              "description": "Broad search for 几何重 across entire vault"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_00_IyqnwRLqrb2TT4WXoodM0100",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rni \"geometric multiplicity\\|几何重\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ --include=\"*.md\" 2>/dev/null",
+              "description": "Search for geometric multiplicity in English and Chinese"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_01_3cmMrXiK4r7PCrp5Ojwk7965",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/本科\" -type f -name \"*.md\" -path \"*线性*\" -o -name \"*.md\" -path \"*代数*\" -o -name \"*.md\" -path \"*特征*\" 2>/dev/null",
+              "description": "Search for linear algebra files in 本科 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_02_knbYLSnzynp96vT5wwLr5648",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note\" -type d -name \"*特征*\" 2>/dev/null",
+              "description": "Find directories with 特征 in name"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量"
+          },
+          {
+            "id": "call_00_DIL8OapZHyY8BKPY6ji22278",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rni \"几何重数\\|几何重数\" /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note/ 2>/dev/null | head -20",
+              "description": "Final broad search including all file types"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_01_unrnJ1eugJgDWGcW5iu91614",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note\" -type f -iname \"*几何*\" 2>/dev/null",
+              "description": "Search for any files with 几何 in name"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/04 线性方程组/第六节 线性方程组的几何应用.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/05 多元函数微分学/二元函数偏导数的几何意义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/02 一元函数微分学/导数与微分的几何意义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/06 二重积分/二重积分的几何意义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/03 一元函数积分学/定积分的几何意义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/08 向量代数与空间解析几何及多元微分学在几何上的应用/多元函数微分在几何上的应用.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/08 向量代数与空间解析几何及多元微分学在几何上的应用/第四节 多元函数微分在几何上的应用.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计/01 随机事件及其概率/几何概型.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计/02 一维随机变量及其分布/几何分布.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计/02 一维随机变量及其分布/超几何分布.md"
+          },
+          {
+            "id": "call_02_y7tEcsrEf6Z3ZoyZp8wr6683",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/第一节 特征值与特征向量的定义与性质.md",
+              "limit": 50
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 第一节 特征值与特征向量的定义与性质\n3\t章: 第五章 特征值与特征向量\n4\ttags:\n5\t  - 章节\n6\tindex: 1\n7\t---\n8\t### 一、特征值与特征向量的定义\n9\t\n10\t- #### [[特征值与特征向量的定义]]\n11\t\n12\t### 二、特征值与特征向量的求解\n13\t\n14\t- #### [[特征值与特征向量的求解]]\n15\t\n16\t### 三、特征值与特征向量的性质 \n17\t\n18\t- #### [[特征值与特征向量的性质]]"
+          }
+        ],
+        "isExpanded": false,
+        "result": "以下是搜索\"几何重数\"在整个Obsidian知识库中的完整结果。\n\n---\n\n## 直接搜索\"几何重数\"\n\n知识库中**没有任何文件**在其文件名或内容中包含字面字符串\"几何重数\"。对\"几何重\"和英语\"geometric multiplicity\"的搜索也返回空结果。\n\n---\n\n## 相关概念资料\n\n虽然这个中文短语没有直接出现，但**几何重数的概念**（即属于某个特征值的线性无关特征向量的个数）在以下文件中有明确记载，这些文件位于线性代数的特征值与特征向量章节中：\n\n### 1. 特征值与特征向量的性质.md\n**路径:** `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/特征值与特征向量的性质.md`\n\n该文件包含了连接代数重数和几何重数的核心**定理3**（第45行）：\n> `1 ≤ 任意 k 重特征值对应的无关特征向量的个数 ≤ k`（无须证明）\n\n随后是一个推论（第48-49行）：\n> 1 重特征值 λ 对应 1 个无关的特征向量，即 (A - λE)x = 0 的基础解系只有 1 个无关的向量\n\n这里\"k 重特征值\"指的是代数重数，\"无关特征向量的个数\"本质上是几何重数。定理说明，几何重数始终介于1和代数重数k之间。\n\n### 2. 矩阵相似对角化的判定与求解.md\n**路径:** `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/矩阵相似对角化的判定与求解.md`\n\n包含了对角化的充要条件，该条件将几何重数（线性无关特征向量的个数）与代数重数联系起来（第22行）：\n> **定理1：** A 可对角化 ⟺ 有 n 个线性无关的特征向量 ⟺ A 的每个 k_i 重特征值都有 k_i 个线性无关的特征向量\n\n### 3. 实对称矩阵的正交相似对角化.md\n**路径:** `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/实对称矩阵的正交相似对角化.md`\n\n描述了实对称矩阵的几何重数始终等于代数重数（第12行）：\n> 2. 对每一个 k_i 重特征值 λ_i，求出方程组 (A-λ_iE)x=0 的基础解系，得到 k_i 个线性无关的特征向量\n\n### 4. 例 B5-7.md（例题）\n**路径:** `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-7.md`\n\n该例题通过计算 `R(2E-A)` 来检查二重特征值是否有2个或1个线性无关的特征向量，以此判断相似性，展示了几何重数的实际运算（第25-27行）。\n\n### 5. 例 B5-10.md（例题）\n**路径:** `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-10.md`\n\n展示了在 λ=1 的双重特征值下求解两个线性无关特征向量的过程。\n\n### 6. 例 B5-14.md（例题）\n**路径:** `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/例 B5-14.md`\n\n讨论了一重特征值始终恰好对应一个线性无关特征向量的情况。\n\n---\n\n## 总结\n\n- **发现直接匹配：** 0 个文件（\"几何重数\"在知识库中任何位置均未出现）\n- **包含该概念的相关文件：** 分布在 `/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量/` 中的6个文件\n- **描述该概念的术语：** 知识库使用\"k 重特征值对应的无关特征向量的个数\"（定理3）或\"k_i 个线性无关的特征向量\"（对角化条件）等表述，而非\"几何重数\"这个标准中文数学术语\n\n如果您希望在笔记中引入\"几何重数\"这个标准术语，可以在提及该概念的文件中添加一个术语别名或显式定义。"
+      }
+    }
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 549,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 54400,
+    "contextWindow": 200000,
+    "contextTokens": 54949,
+    "percentage": 27,
+    "contextWindowIsAuthoritative": true
+  }
+}

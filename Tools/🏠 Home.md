@@ -73,13 +73,6 @@ customTextColor #50416E
 ## 🛠️ 工具库
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%; gap: 15px; margin: 20px 0;">
-    <a class="internal-link" href="Tools/Prompt" style="width: 50%; text-decoration: none;">
-        <div style="text-align: center; border: 1.5px solid #83a598; padding: 15px; border-radius: 12px; cursor: pointer; transition: all 0.3s; background-color: rgba(131, 165, 152, 0.05);">
-            <h3 style="margin: 0; color: #83a598; display: flex; align-items: center; justify-content: center; gap: 8px;">
-                <span>✨</span> Prompt 提示词库
-            </h3>
-        </div>
-    </a>
     <a class="internal-link" href="影视书籍管理" style="width: 50%; text-decoration: none;">
         <div style="text-align: center; border: 1.5px solid #83a598; padding: 15px; border-radius: 12px; cursor: pointer; transition: all 0.3s; background-color: rgba(131, 165, 152, 0.05);">
             <h3 style="margin: 0; color: #83a598; display: flex; align-items: center; justify-content: center; gap: 8px;">

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782632660552-r7jjw2v52",
+  "providerId": "claude",
+  "title": "Evaluate migrating math error system to Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782632660552,
+  "updatedAt": 1782641488784,
+  "lastResponseAt": 1782639021559,
+  "sessionId": "3f0650fc-d1df-4c64-adc9-5c1cec840ec4",
+  "providerState": {
+    "providerSessionId": "3f0650fc-d1df-4c64-adc9-5c1cec840ec4"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 1555,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 217856,
+    "contextWindow": 200000,
+    "contextTokens": 219411,
+    "percentage": 100,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"title-node","type":"text","text":"# 第六章 微分方程","x":400,"y":-40,"width":500,"height":65},
+		{"id":"group-first","type":"group","text":"📌 一阶微分方程","x":40,"y":60,"width":1220,"height":555,"color":"4"},
+		{"id":"card-A6-1","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-1.md","x":80,"y":105,"width":360,"height":220,"color":"4"},
+		{"id":"card-A6-2","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-2.md","x":470,"y":105,"width":360,"height":220,"color":"4"},
+		{"id":"card-A6-3","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-3.md","x":860,"y":105,"width":360,"height":220,"color":"4"},
+		{"id":"card-A6-4","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-4.md","x":80,"y":350,"width":360,"height":220,"color":"4"},
+		{"id":"group-reduce","type":"group","text":"📌 可降阶的高阶方程","x":40,"y":660,"width":1220,"height":310,"color":"6"},
+		{"id":"card-A6-5","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-5.md","x":80,"y":705,"width":360,"height":220,"color":"6"},
+		{"id":"group-high","type":"group","text":"📌 高阶线性微分方程","x":40,"y":1015,"width":1220,"height":310,"color":"1"},
+		{"id":"card-A6-6","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-6.md","x":80,"y":1060,"width":360,"height":220,"color":"1"}
+	],
+	"edges":[]
+}

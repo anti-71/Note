@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782647659123-durnm2qu3",
+  "providerId": "claude",
+  "title": "Explain 变上限积分",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782647659124,
+  "updatedAt": 1782651490588,
+  "lastResponseAt": 1782651471519,
+  "sessionId": "d3d57b77-2ee4-4010-b71f-ee2e57351e79",
+  "providerState": {
+    "providerSessionId": "d3d57b77-2ee4-4010-b71f-ee2e57351e79"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 190,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 196352,
+    "contextWindow": 200000,
+    "contextTokens": 196542,
+    "percentage": 98,
+    "contextWindowIsAuthoritative": true
+  }
+}

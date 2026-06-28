@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782621817952-7kde8lpe5",
+  "providerId": "claude",
+  "title": "Handle nested integral zero limits in L'Hôpital",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782621817953,
+  "updatedAt": 1782632492728,
+  "lastResponseAt": 1782632467102,
+  "sessionId": "1b64241b-c531-4490-ac98-638146eba8e4",
+  "providerState": {
+    "providerSessionId": "1b64241b-c531-4490-ac98-638146eba8e4"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 753,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 83200,
+    "contextWindow": 200000,
+    "contextTokens": 83953,
+    "percentage": 42,
+    "contextWindowIsAuthoritative": true
+  }
+}

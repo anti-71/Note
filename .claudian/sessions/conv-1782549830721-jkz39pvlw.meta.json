@@ -4,8 +4,8 @@
   "title": "Analyze Brewster's Law diagram",
   "titleGenerationStatus": "success",
   "createdAt": 1782549830721,
-  "updatedAt": 1782563387446,
-  "lastResponseAt": 1782563387446,
+  "updatedAt": 1782563504724,
+  "lastResponseAt": 1782563472232,
   "sessionId": "2d33cda9-08fb-4575-9af5-e57923a3d033",
   "providerState": {
     "providerSessionId": "2d33cda9-08fb-4575-9af5-e57923a3d033",
@@ -5416,11 +5416,11 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 155,
+    "inputTokens": 151,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 598656,
+    "cacheReadInputTokens": 604544,
     "contextWindow": 200000,
-    "contextTokens": 598811,
+    "contextTokens": 604695,
     "percentage": 100,
     "contextWindowIsAuthoritative": true
   }

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"title-node","type":"text","text":"# 第四章 多元函数微分学","x":400,"y":-40,"width":500,"height":65},
+		{"id":"group-cont","type":"group","text":"📌 多元函数连续","x":40,"y":60,"width":1220,"height":310,"color":"6"},
+		{"id":"card-A4-1","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-1.md","x":80,"y":105,"width":360,"height":220,"color":"6"},
+		{"id":"card-A4-2","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-2.md","x":470,"y":105,"width":360,"height":220,"color":"6"},
+		{"id":"group-diff","type":"group","text":"📌 全微分","x":40,"y":415,"width":1220,"height":555,"color":"2"},
+		{"id":"card-A4-3","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-3.md","x":80,"y":460,"width":360,"height":220,"color":"2"},
+		{"id":"card-A4-4","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-4.md","x":470,"y":460,"width":360,"height":220,"color":"2"},
+		{"id":"card-A4-5","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-5.md","x":860,"y":460,"width":360,"height":220,"color":"2"},
+		{"id":"card-A4-6","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-6.md","x":80,"y":705,"width":360,"height":220,"color":"2"},
+		{"id":"group-rel","type":"group","text":"📌 多元函数连续、可导、可微的关系","x":40,"y":1015,"width":1220,"height":310,"color":"5"},
+		{"id":"card-A4-7","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-7.md","x":80,"y":1060,"width":360,"height":220,"color":"5"},
+		{"id":"card-A4-8","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-8.md","x":470,"y":1060,"width":360,"height":220,"color":"5"},
+		{"id":"group-mixed","type":"group","text":"📌 告诫偏导数","x":40,"y":1370,"width":1220,"height":310,"color":"3"},
+		{"id":"card-A4-9","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-9.md","x":80,"y":1415,"width":360,"height":220,"color":"3"},
+		{"id":"group-implicit","type":"group","text":"📌 隐函数的偏导数与全微分","x":40,"y":1725,"width":1220,"height":310,"color":"1"},
+		{"id":"card-A4-10","type":"file","file":"考研/数学/05 错题集/01 高等数学/04 多元函数微分学/错 A4-10.md","x":80,"y":1770,"width":360,"height":220,"color":"1"}
+	],
+	"edges":[]
+}
