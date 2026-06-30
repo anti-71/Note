@@ -1,0 +1,94 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第七章 参数估计与假设检验",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-mle",
+			"type": "group",
+			"text": "📌 最大似然估计",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P7-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/07 参数估计与假设检验/错 P7-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-unbiased",
+			"type": "group",
+			"text": "📌 无偏估计",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P7-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/07 参数估计与假设检验/错 P7-2.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P7-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/07 参数估计与假设检验/错 P7-3.md",
+			"x": 480,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-moment",
+			"type": "group",
+			"text": "📌 矩估计",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-P7-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/07 参数估计与假设检验/错 P7-4.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P7-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/07 参数估计与假设检验/错 P7-5.md",
+			"x": 480,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

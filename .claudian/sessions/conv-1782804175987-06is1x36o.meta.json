@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782804175987-06is1x36o",
+  "providerId": "claude",
+  "title": "Survey needs for exam consolation gifts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782804175988,
+  "updatedAt": 1782810621621,
+  "lastResponseAt": 1782809821683,
+  "sessionId": "78767031-820c-4fd0-97b2-3c5648764c43",
+  "providerState": {
+    "providerSessionId": "78767031-820c-4fd0-97b2-3c5648764c43"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 557,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 195712,
+    "contextWindow": 200000,
+    "contextTokens": 196269,
+    "percentage": 98,
+    "contextWindowIsAuthoritative": true
+  }
+}

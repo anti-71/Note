@@ -1,0 +1,154 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第一章 随机事件与概率",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-independence",
+			"type": "group",
+			"text": "📌 事件的独立性",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P1-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-P1-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-2.md",
+			"x": 470,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-relations",
+			"type": "group",
+			"text": "📌 事件的关系",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P1-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-3.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "card-P1-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-4.md",
+			"x": 470,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "group-classical",
+			"type": "group",
+			"text": "📌 古典概型",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-P1-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-5.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "group-conditional",
+			"type": "group",
+			"text": "📌 条件概率",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-P1-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-6.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "card-P1-7",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-7.md",
+			"x": 470,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "card-P1-8",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-8.md",
+			"x": 860,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-bayes",
+			"type": "group",
+			"text": "📌 贝叶斯公式",
+			"x": 40,
+			"y": 1480,
+			"width": 1220,
+			"height": 310,
+			"color": "3"
+		},
+		{
+			"id": "card-P1-9",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/01 随机事件与概率/错 P1-9.md",
+			"x": 80,
+			"y": 1525,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		}
+	],
+	"edges": []
+}

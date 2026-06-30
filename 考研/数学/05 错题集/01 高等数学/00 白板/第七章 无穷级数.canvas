@@ -1,0 +1,224 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第七章 无穷级数",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-test",
+			"type": "group",
+			"text": "📌 级数的审敛原则",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 555,
+			"color": "4"
+		},
+		{
+			"id": "card-A7-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-2.md",
+			"x": 470,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A7-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-3.md",
+			"x": 860,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "1"
+		},
+		{
+			"id": "card-A7-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-4.md",
+			"x": 80,
+			"y": 350,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-5.md",
+			"x": 470,
+			"y": 350,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-6.md",
+			"x": 860,
+			"y": 350,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-sum",
+			"type": "group",
+			"text": "📌 级数求和",
+			"x": 40,
+			"y": 660,
+			"width": 1220,
+			"height": 555,
+			"color": "6"
+		},
+		{
+			"id": "card-A7-7",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-7.md",
+			"x": 80,
+			"y": 705,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "card-A7-8",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-8.md",
+			"x": 470,
+			"y": 705,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-9",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-9.md",
+			"x": 860,
+			"y": 705,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-10",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-10.md",
+			"x": 80,
+			"y": 950,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-11",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-11.md",
+			"x": 470,
+			"y": 950,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-radius",
+			"type": "group",
+			"text": "📌 求收敛半径、收敛区间及收敛域",
+			"x": 40,
+			"y": 1260,
+			"width": 1220,
+			"height": 310,
+			"color": "1"
+		},
+		{
+			"id": "card-A7-12",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-12.md",
+			"x": 80,
+			"y": 1305,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A7-13",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-13.md",
+			"x": 470,
+			"y": 1305,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-expand",
+			"type": "group",
+			"text": "📌 将函数转换为幂级数",
+			"x": 40,
+			"y": 1615,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-A7-14",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-14.md",
+			"x": 80,
+			"y": 1660,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-fourier",
+			"type": "group",
+			"text": "📌 傅里叶级数",
+			"x": 40,
+			"y": 1970,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-A7-15",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-15.md",
+			"x": 80,
+			"y": 2015,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A7-16",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/07 无穷级数/错 A7-16.md",
+			"x": 470,
+			"y": 2015,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		}
+	],
+	"edges": []
+}

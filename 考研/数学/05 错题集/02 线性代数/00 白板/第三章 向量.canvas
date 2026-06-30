@@ -1,0 +1,104 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第三章 向量",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-vecspace",
+			"type": "group",
+			"text": "📌 向量空间",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-L3-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/03 向量/错 L3-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-lineardep",
+			"type": "group",
+			"text": "📌 向量组的线性相关性",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-L3-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/03 向量/错 L3-2.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-L3-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/03 向量/错 L3-3.md",
+			"x": 470,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-maximal",
+			"type": "group",
+			"text": "📌 向量的极大线性无关组",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-L3-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/03 向量/错 L3-4.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-equivalence",
+			"type": "group",
+			"text": "📌 向量组等价与矩阵等价",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-L3-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/03 向量/错 L3-5.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

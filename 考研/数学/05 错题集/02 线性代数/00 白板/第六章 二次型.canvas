@@ -1,0 +1,64 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第六章 二次型",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-standard",
+			"type": "group",
+			"text": "📌 化二次型为标准型",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-L6-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/06 二次型/错 L6-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-posdef",
+			"type": "group",
+			"text": "📌 矩阵的正定",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-L6-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/06 二次型/错 L6-2.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-L6-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/06 二次型/错 L6-3.md",
+			"x": 470,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

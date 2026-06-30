@@ -1,0 +1,164 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第二章 矩阵",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-inverse",
+			"type": "group",
+			"text": "📌 逆矩阵",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-L2-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-L2-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-2.md",
+			"x": 470,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-L2-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-3.md",
+			"x": 860,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-rank",
+			"type": "group",
+			"text": "📌 矩阵的秩",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-L2-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-4.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-L2-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-5.md",
+			"x": 470,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-adjugate",
+			"type": "group",
+			"text": "📌 伴随矩阵",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-L2-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-6.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-L2-7",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-7.md",
+			"x": 470,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-L2-8",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-8.md",
+			"x": 860,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-highpower",
+			"type": "group",
+			"text": "📌 方阵高次幂",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-L2-9",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-9.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-basicops",
+			"type": "group",
+			"text": "📌 矩阵的基本运算",
+			"x": 40,
+			"y": 1480,
+			"width": 1220,
+			"height": 310,
+			"color": "3"
+		},
+		{
+			"id": "card-L2-10",
+			"type": "file",
+			"file": "考研/数学/05 错题集/02 线性代数/02 矩阵/错 L2-10.md",
+			"x": 80,
+			"y": 1525,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

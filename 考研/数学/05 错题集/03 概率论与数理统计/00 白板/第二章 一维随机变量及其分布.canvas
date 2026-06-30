@@ -1,0 +1,84 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第二章 一维随机变量及其分布",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-continuous",
+			"type": "group",
+			"text": "📌 连续型随机变量",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P2-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/02 一维随机变量及其分布/错 P2-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "group-poisson",
+			"type": "group",
+			"text": "📌 泊松定理",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P2-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/02 一维随机变量及其分布/错 P2-2.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-function-dist",
+			"type": "group",
+			"text": "📌 随机变量函数的分布求解",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-P2-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/02 一维随机变量及其分布/错 P2-3.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P2-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/02 一维随机变量及其分布/错 P2-4.md",
+			"x": 470,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		}
+	],
+	"edges": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782693607200-fvs2j59t7",
+  "providerId": "claude",
+  "title": "Extract 8.1 测试环境 from docx to vault",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782693607201,
+  "updatedAt": 1782693726765,
+  "lastResponseAt": 1782693684318,
+  "sessionId": "fa965e7c-83d4-4344-a798-04ee194af5cc",
+  "providerState": {
+    "providerSessionId": "fa965e7c-83d4-4344-a798-04ee194af5cc"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 114,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 57344,
+    "contextWindow": 200000,
+    "contextTokens": 57458,
+    "percentage": 29,
+    "contextWindowIsAuthoritative": true
+  }
+}

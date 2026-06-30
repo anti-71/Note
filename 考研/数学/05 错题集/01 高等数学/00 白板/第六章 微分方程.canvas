@@ -1,15 +1,234 @@
 {
-	"nodes":[
-		{"id":"title-node","type":"text","text":"# 第六章 微分方程","x":400,"y":-40,"width":500,"height":65},
-		{"id":"group-first","type":"group","text":"📌 一阶微分方程","x":40,"y":60,"width":1220,"height":555,"color":"4"},
-		{"id":"card-A6-1","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-1.md","x":80,"y":105,"width":360,"height":220,"color":"4"},
-		{"id":"card-A6-2","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-2.md","x":470,"y":105,"width":360,"height":220,"color":"4"},
-		{"id":"card-A6-3","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-3.md","x":860,"y":105,"width":360,"height":220,"color":"4"},
-		{"id":"card-A6-4","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-4.md","x":80,"y":350,"width":360,"height":220,"color":"4"},
-		{"id":"group-reduce","type":"group","text":"📌 可降阶的高阶方程","x":40,"y":660,"width":1220,"height":310,"color":"6"},
-		{"id":"card-A6-5","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-5.md","x":80,"y":705,"width":360,"height":220,"color":"6"},
-		{"id":"group-high","type":"group","text":"📌 高阶线性微分方程","x":40,"y":1015,"width":1220,"height":310,"color":"1"},
-		{"id":"card-A6-6","type":"file","file":"考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-6.md","x":80,"y":1060,"width":360,"height":220,"color":"1"}
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第六章 微分方程",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-first",
+			"type": "group",
+			"text": "📌 一阶微分方程",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 555,
+			"color": "4"
+		},
+		{
+			"id": "card-A6-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A6-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-2.md",
+			"x": 470,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A6-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-3.md",
+			"x": 860,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A6-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-4.md",
+			"x": 80,
+			"y": 350,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-reduce",
+			"type": "group",
+			"text": "📌 可降阶的高阶方程",
+			"x": 40,
+			"y": 660,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-A6-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-5.md",
+			"x": 80,
+			"y": 705,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-high",
+			"type": "group",
+			"text": "📌 高阶线性微分方程",
+			"x": 40,
+			"y": 1015,
+			"width": 1220,
+			"height": 310,
+			"color": "1"
+		},
+		{
+			"id": "card-A6-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-6.md",
+			"x": 80,
+			"y": 1060,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-app",
+			"type": "group",
+			"text": "📌 应用题",
+			"x": 40,
+			"y": 1370,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-A6-7",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-7.md",
+			"x": 80,
+			"y": 1415,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A6-8",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-8.md",
+			"x": 470,
+			"y": 1415,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-struct",
+			"type": "group",
+			"text": "📌 线性微分方程解的结构",
+			"x": 40,
+			"y": 1725,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-A6-9",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-9.md",
+			"x": 80,
+			"y": 1770,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A6-10",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-10.md",
+			"x": 470,
+			"y": 1770,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-const",
+			"type": "group",
+			"text": "📌 常系数非齐次线性微分方程",
+			"x": 40,
+			"y": 2080,
+			"width": 1220,
+			"height": 310,
+			"color": "3"
+		},
+		{
+			"id": "card-A6-11",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-11.md",
+			"x": 80,
+			"y": 2125,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-A6-12",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-12.md",
+			"x": 470,
+			"y": 2125,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-homo",
+			"type": "group",
+			"text": "📌 齐次微分方程",
+			"x": 40,
+			"y": 2435,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-A6-13",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-13.md",
+			"x": 80,
+			"y": 2480,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-consthomo",
+			"type": "group",
+			"text": "📌 常系数齐次线性微分方程",
+			"x": 40,
+			"y": 2790,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-A6-14",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/06 微分方程/错 A6-14.md",
+			"x": 80,
+			"y": 2835,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		}
 	],
-	"edges":[]
+	"edges": []
 }

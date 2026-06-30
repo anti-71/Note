@@ -4,8 +4,8 @@
   "title": "Solve indefinite integral with split-term",
   "titleGenerationStatus": "success",
   "createdAt": 1782651513228,
-  "updatedAt": 1782656027933,
-  "lastResponseAt": 1782656027933,
+  "updatedAt": 1782713090191,
+  "lastResponseAt": 1782710562443,
   "sessionId": "6ec751c6-8c96-468c-b48a-9870414d9d07",
   "providerState": {
     "providerSessionId": "6ec751c6-8c96-468c-b48a-9870414d9d07",
@@ -191,12 +191,12 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 178,
+    "inputTokens": 1864,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 125696,
+    "cacheReadInputTokens": 215168,
     "contextWindow": 200000,
-    "contextTokens": 125874,
-    "percentage": 63,
+    "contextTokens": 217032,
+    "percentage": 100,
     "contextWindowIsAuthoritative": true
   }
 }

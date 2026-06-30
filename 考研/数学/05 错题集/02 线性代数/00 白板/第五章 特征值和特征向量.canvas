@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"group-similarity","type":"group","text":"📌 矩阵的相似","x":40,"y":60,"width":1220,"height":310,"color":"4"},
+		{"id":"group-symmetric","type":"group","text":"📌 实对称矩阵","x":40,"y":415,"width":1220,"height":310,"color":"6"},
+		{"id":"group-eigendef","type":"group","text":"📌 特征向量的定义","x":40,"y":770,"width":1220,"height":310,"color":"2"},
+		{"id":"group-congruence","type":"group","text":"📌 矩阵的合同","x":40,"y":1125,"width":1220,"height":310,"color":"1"},
+		{"id":"group-orthogonal","type":"group","text":"📌 正交矩阵","x":40,"y":1455,"width":1220,"height":310},
+		{"id":"group-rank-eigen","type":"group","text":"📌 特征值与秩的关系","x":40,"y":1810,"width":1220,"height":310,"color":"3"},
+		{"id":"title-node","type":"text","text":"# 第五章 特征值和特征向量","x":400,"y":-40,"width":500,"height":65},
+		{"id":"card-L5-1","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-1.md","x":80,"y":105,"width":360,"height":220,"color":"3"},
+		{"id":"card-L5-2","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-2.md","x":470,"y":105,"width":360,"height":220,"color":"3"},
+		{"id":"card-L5-3","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-3.md","x":80,"y":460,"width":360,"height":220,"color":"5"},
+		{"id":"card-L5-4","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-4.md","x":470,"y":460,"width":360,"height":220,"color":"3"},
+		{"id":"card-L5-5","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-5.md","x":80,"y":815,"width":360,"height":220,"color":"3"},
+		{"id":"card-L5-6","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-6.md","x":470,"y":815,"width":360,"height":220,"color":"5"},
+		{"id":"card-L5-7","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-7.md","x":80,"y":1170,"width":360,"height":220,"color":"5"},
+		{"id":"card-L5-8","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-8.md","x":80,"y":1500,"width":360,"height":220,"color":"5"},
+		{"id":"card-L5-9","type":"file","file":"考研/数学/05 错题集/02 线性代数/05 特征值和特征向量/错 L5-9.md","x":80,"y":1855,"width":360,"height":220,"color":"4"}
+	],
+	"edges":[]
+}

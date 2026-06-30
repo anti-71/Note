@@ -1,0 +1,124 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第六章 数理统计的基本概念",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-sample",
+			"type": "group",
+			"text": "📌 样本",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P6-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P6-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-2.md",
+			"x": 480,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P6-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-3.md",
+			"x": 880,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-chi2",
+			"type": "group",
+			"text": "📌 χ² 分布",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P6-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-4.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-samplemean",
+			"type": "group",
+			"text": "📌 正态总体的样本均值",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-P6-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-5.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P6-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-6.md",
+			"x": 480,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-orderstat",
+			"type": "group",
+			"text": "📌 最大/小值统计量的分布",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-P6-7",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/06 数理统计的基本概念/错 P6-7.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

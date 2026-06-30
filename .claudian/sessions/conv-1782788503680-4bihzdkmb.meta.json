@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782788503680-4bihzdkmb",
+  "providerId": "claude",
+  "title": "Find a, b for line on tangent plane",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782788503680,
+  "updatedAt": 1782793760339,
+  "lastResponseAt": 1782793732712,
+  "sessionId": "564d212c-66b4-43bb-9112-6295d865352d",
+  "providerState": {
+    "providerSessionId": "564d212c-66b4-43bb-9112-6295d865352d"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 472,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 201728,
+    "contextWindow": 200000,
+    "contextTokens": 202200,
+    "percentage": 100,
+    "contextWindowIsAuthoritative": true
+  }
+}

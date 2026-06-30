@@ -1,0 +1,54 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第五章 大数定律与中心极限定理",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-clt",
+			"type": "group",
+			"text": "📌 中心极限定理",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P5-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/05 大数定律与中心极限定理/错 P5-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-chebyshev",
+			"type": "group",
+			"text": "📌 切比雪夫不等式",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P5-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/05 大数定律与中心极限定理/错 P5-2.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

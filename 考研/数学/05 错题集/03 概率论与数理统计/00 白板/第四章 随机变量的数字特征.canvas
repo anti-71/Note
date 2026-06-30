@@ -1,0 +1,114 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第四章 随机变量的数字特征",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-correlation",
+			"type": "group",
+			"text": "📌 相关性",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P4-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/04 随机变量的数字特征/错 P4-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P4-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/04 随机变量的数字特征/错 P4-2.md",
+			"x": 480,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P4-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/04 随机变量的数字特征/错 P4-3.md",
+			"x": 880,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-expectation",
+			"type": "group",
+			"text": "📌 数学期望的性质",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P4-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/04 随机变量的数字特征/错 P4-4.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-application",
+			"type": "group",
+			"text": "📌 应用题",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-P4-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/04 随机变量的数字特征/错 P4-5.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-expectation2",
+			"type": "group",
+			"text": "📌 求数学期望",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-P4-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/04 随机变量的数字特征/错 P4-6.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

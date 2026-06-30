@@ -1,0 +1,191 @@
+{
+  "id": "conv-1782700858156-22rl2fz8a",
+  "providerId": "claude",
+  "title": "Organize 'adopt' in exam English vocab",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782700858156,
+  "updatedAt": 1782810815960,
+  "lastResponseAt": 1782810815960,
+  "sessionId": "cd89b0bc-6cea-4cb5-af35-5ad755d3ce8c",
+  "providerState": {
+    "providerSessionId": "cd89b0bc-6cea-4cb5-af35-5ad755d3ce8c",
+    "subagentData": {
+      "call_00_WKLLhlfRranx3VayDaiU9445": {
+        "id": "call_00_WKLLhlfRranx3VayDaiU9445",
+        "description": "Find vocabulary notes location",
+        "prompt": "Search the vault for vocabulary notes related to \"考研/英语/04 词汇总结\" or \"04 词汇总结\". Look for:\n1. Any folder containing \"04 词汇总结\" or similar path\n2. Any note containing \"词汇总结\" in its content or filename\n3. The vocabulary note structure in 考研/英语/ directory\n\nReturn the full relative paths of any relevant files found and their content structure.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_9f5Bz6WAe9b4wLIJRhbW8096",
+            "name": "Bash",
+            "input": {
+              "command": "find /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note -type d -path \"*考研*\" 2>/dev/null | head -50",
+              "description": "Find directories with \"考研\" in path"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/04 数研心法\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/05 错题集\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/00 索引\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/01 数据结构\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/04 计算机网络\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/03 操作系统\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/00 索引\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/02 66句\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/01 语法\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/03 阅读\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/05 新题型\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/00 索引\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/05 多元函数微分学\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/01 函数 极限 连续\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/09 多元函数积分学及其应用\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/02 一元函数微分学\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/07 无穷级数\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/04 常微分方程\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/06 二重积分\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/03 一元函数积分学\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/01 高等数学/08 向量代数与空间解析几何及多元微分学在几何上的应用\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计/01 随机事件及其概率\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计/03 二维随机变量及其分布\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/03 概率论与数理统计/02 一维随机变量及其分布\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/05 错题集/01 高等数学\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/05 错题集/03 概率论与数理统计\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/05 错题集/02 线性代数\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/02 行列式\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/01 矩阵\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/05 特征值与特征向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/03 向量\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/04 线性方程组\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/数学/02 线性代数/06 二次型\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/06 总线\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/01 计算机系统概述\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/07 输入 输出系统\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/02 数据的表示和运算\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/03 存储系统\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/05 中央处理器\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/02 计算机组成原理/04 指令系统\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/408/01 数据结构/03 栈、队列和数组"
+          },
+          {
+            "id": "call_01_jQaR2y7yAFMOcRBVes8N0923",
+            "name": "Bash",
+            "input": {
+              "command": "find /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note -type f -iname \"*04*词汇*\" -o -type f -iname \"*词汇总结*\" 2>/dev/null | head -50",
+              "description": "Find files with \"04\" and \"词汇\" or \"词汇总结\" in filename"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_02_DyaEDluNf6wVcRNKG8sC2165",
+            "name": "Bash",
+            "input": {
+              "command": "find /Users/jeunesse/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/Note -type d -name \"*英语*\" 2>/dev/null | head -50",
+              "description": "Find directories with \"英语\" in path"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语"
+          },
+          {
+            "id": "call_00_DlGWKFVL7k8PVUFpAKMp8059",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/\"",
+              "description": "List contents of the \"04 词汇总结\" directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 0\ndrwxr-xr-x@  6 jeunesse  staff  192 Jun 28 09:44 .\ndrwxrwxrwx   8 jeunesse  staff  256 Jun 28 09:44 ..\ndrwxr-xr-x@ 10 jeunesse  staff  320 Jun 11 09:36 01 话题词\ndrwxr-xr-x@ 11 jeunesse  staff  352 Jun 28 09:44 02 同义替换\ndrwxr-xr-x@  8 jeunesse  staff  256 Jun 25 10:29 03 逻辑关系\ndrwxr-xr-x@  7 jeunesse  staff  224 Jun  8 09:31 04 熟词辟义"
+          },
+          {
+            "id": "call_01_61Sdf8z0IQhDQG8uztXS4379",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/\" -type f 2>/dev/null",
+              "description": "Recursively list all files in \"04 词汇总结\" directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/认知与观点类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/第二节 同义替换.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/行为与动作类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/负向情感.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/能力与属性类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/正向情感.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/金钱与经济类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/方式与程度类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/社会与生活类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/宏观经济类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/心理行为类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/传媒出版类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/环境保护类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/信息技术类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/第一节 话题词.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/历史文化类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/政治法律类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/形容词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/副词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/动词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/名词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/第四节 熟词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/举例关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/第三节 逻辑关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/相反关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/顺接关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/时间关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/因果关系.md"
+          },
+          {
+            "id": "call_02_nAoNLuRBIN4DjOj9O6sJ4946",
+            "name": "Bash",
+            "input": {
+              "command": "grep -rl \"词汇总结\" \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/\" --include=\"*.md\" 2>/dev/null | head -30",
+              "description": "Search for notes containing \"词汇总结\" in content"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/认知与观点类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/行为与动作类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/能力与属性类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/金钱与经济类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/负向情感.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/方式与程度类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/第二节 同义替换.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/社会与生活类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/正向情感.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/环境保护类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/心理行为类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/传媒出版类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/第一节 话题词.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/宏观经济类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/政治法律类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/历史文化类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/名词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/动词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/副词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/信息技术类.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/第三节 逻辑关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/举例关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/顺接关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/形容词辟义.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/时间关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/因果关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/相反关系.md\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/第四节 熟词辟义.md"
+          },
+          {
+            "id": "call_03_hXHWF7pycO3GOcV36JX46433",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/\"",
+              "description": "List the structure of the 考研/英语 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 0\ndrwxrwxrwx   8 jeunesse  staff   256 Jun 28 09:44 .\ndrwxrwxrwx   6 jeunesse  staff   192 Jun 28 22:14 ..\ndrwxrwxrwx   3 jeunesse  staff    96 Mar 15 09:55 00 索引\ndrwxrwxrwx  11 jeunesse  staff   352 Apr 16 09:34 01 语法\ndrwxr-xr-x@  5 jeunesse  staff   160 Apr  8 11:22 02 66句\ndrwxr-xr-x@ 12 jeunesse  staff   384 Apr 17 20:51 03 阅读\ndrwxr-xr-x@  6 jeunesse  staff   192 Jun 28 09:44 04 词汇总结\ndrwxr-xr-x@ 47 jeunesse  staff  1504 Jun  4 09:58 05 新题型"
+          },
+          {
+            "id": "call_00_EkqKAb4RY5IGkvbvO65y4217",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/第一节 话题词.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 第一节 话题词\n3\t章: 04 词汇总结\n4\ttags:\n5\t  - 章节\n6\tindex: 1\n7\t---\n8\t# 话题词\n9\t\n10\t- #### [[信息技术类|1. 信息技术类]]\n11\t- #### [[环境保护类|2. 环境保护类]]\n12\t- #### [[宏观经济类|3. 宏观经济类]]\n13\t- #### [[传媒出版类|4. 传媒出版类]]\n14\t- #### [[心理行为类|5. 心理行为类]]\n15\t- ##### [[历史文化类|6. 历史文化类]]\n16\t- #### [[政治法律类|7. 政治法律类]]\n17\t\n18\t"
+          },
+          {
+            "id": "call_01_8vCULpyN4BA6mJC7kXch8322",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/第二节 同义替换.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 第二节 同义替换\n3\t章: 04 词汇总结\n4\ttags:\n5\t  - 章节\n6\tindex: 2\n7\t---\n8\t# 同义替换\n9\t\n10\t- #### [[正向情感|1. 正向情感]]\n11\t- #### [[负向情感|2. 负向情感]]\n12\t- #### [[金钱与经济类|3. 金钱与经济类]]\n13\t- #### [[行为与动作类|4. 行为与动作类]]\n14\t- #### [[认知与观点类|5. 认知与观点类]]\n15\t- #### [[方式与程度类|6. 方式与程度类]]\n16\t- #### [[能力与属性类|7. 能力与属性类]]\n17\t- #### [[社会与生活类|8. 社会与生活类]]\n18\t\n19\t"
+          },
+          {
+            "id": "call_02_Ln9YTLdSOuywEBmLxy3M0233",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/第三节 逻辑关系.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 第三节 逻辑关系\n3\t章: 04 词汇总结\n4\ttags:\n5\t  - 章节\n6\tindex: 3\n7\t---\n8\t# 逻辑关系\n9\t\n10\t- #### [[顺接关系|1. 顺接关系]]\n11\t- #### [[相反关系|2. 相反关系]]\n12\t- #### [[因果关系|3. 因果关系]]\n13\t- #### [[举例关系|4. 举例关系]]\n14\t- #### [[时间关系|5. 时间关系]]\n15\t\n16\t\n17\t\n18\t"
+          },
+          {
+            "id": "call_03_Zu1I6OEUJrm7LCdvB0xM8391",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/第四节 熟词辟义.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 第四节 熟词辟义\n3\t章: 04 词汇总结\n4\ttags:\n5\t  - 章节\n6\tindex: 4\n7\t---\n8\t# 熟词辟义\n9\t\n10\t- #### [[名词辟义|1. 名词]]\n11\t- #### [[动词辟义|2. 动词]]\n12\t- #### [[形容词辟义|3. 形容词]]\n13\t- #### [[副词辟义|4. 副词]]\n14\t\n15\t"
+          },
+          {
+            "id": "call_00_NoxsCa2L7WasdNK3tQ3q2326",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/01 话题词/信息技术类.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 信息技术类\n3\t章: 04 词汇总结\n4\t节: \"[[第一节 话题词]]\"\n5\ttags:\n6\t  - 知识点\n7\tindex: 1\n8\t---\n9\t- digital —— 数字的\n10\t- mobile phone、smartphone、cell phone —— 智能手机\n11\t- artificial intelligence (AI) —— 人工智能\n12\t- applications、apps —— 软件"
+          },
+          {
+            "id": "call_01_OvZYfgYX2ntVYicSkDt11902",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/02 同义替换/正向情感.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 正向情感\n3\t章: 04 词汇总结\n4\t节: \"[[第二节 同义替换]]\"\n5\ttags:\n6\t  - 知识点\n7\tindex: 1\n8\t---\n9\t\n10\t| 释义      | 单词                                                                                                                                  |\n11\t| :------ | :---------------------------------------------------------------------------------------------------------------------------------- |\n12\t| 有利于     | benefit/beneficial<br>help<br>useful<br>boon                                                                                        |\n13\t| 合理的     | acceptable<br>reasonable<br>wise<br>legitimate<br>admirable<br>effective<br>appreciative<br>justified<br>meaningful                 |\n14\t| 值得的     | worthy<br>deserving<br>valuable<br>important<br>precious                                                                            |\n15\t| 支持的     | supportive                                                                                                                          |\n16\t| 热情      | enthusiasm                                                                                                                          |\n17\t| 赞扬      | praise                                                                                                                              |\n18\t| 卓越      | brilliant<br>excellence<br>prominent<br>top-tier<br>magnificent<br>exceptional<br>remarkable<br>unmatched<br>notable<br>significant |\n19\t| 繁荣      | prosperity<br>thrive                                                                                                                |\n20\t| 受欢迎的    | popular<br>respected<br>sought-after<br>become a sudden hit<br>welcome                                                              |\n21\t| 无争议的    | undoubted<br>non-controversial<br>unanimously                                                                                       |\n22\t| 更新的     | updated<br>novel<br>innovation                                                                                                      |\n23\t| 独一无二的   | unique                                                                                                                              |\n24\t| 至关重要的   | essential<br>crucial<br>critical<br>core<br>notable<br>vital<br>primarily<br>integral                                               |\n25\t| 同情      | compassion<br>lenient                                                                                                               |\n26\t| 负责任的    | accountable<br>committed                                                                                                            |\n27\t| 强壮的     | strong                                                                                                                              |\n28\t| 适应力强的   | adaptive<br>resilient                                                                                                               |\n29\t| 可靠地     | reliably                                                                                                                            |\n30\t| 成功      | success                                                                                                                             |\n31\t| 公平      | fair<br>equity<br>equality<br>parity                                                                                                |\n32\t| 胜利      | victory                                                                                                                             |\n33\t| 称赞      | praise                                                                                                                              |\n34\t| 乐观的     | optimistic                                                                                                                          |\n35\t| 有声望的    | prestigious                                                                                                                         |\n36\t| 优质的     | elegant<br>decent                                                                                                                   |\n37\t| 灵活的     | flexible                                                                                                                            |\n38\t| 健康的     | healthy<br>wellbeing                                                                                                                |\n39\t| 理想的     | ideal                                                                                                                               |\n40\t| 最佳的     | optimal                                                                                                                             |\n41\t| 可获得的    | accessible<br>achievable                                                                                                            |\n42\t| 明确的     | explicit<br>precise                                                                                                                 |\n43\t| 稳定      | stable<br>stabilizing<br>consolidate                                                                                                |\n44\t| 安全      | safe<br>security                                                                                                                    |\n45\t| 启发性的    | enlightening                                                                                                                        |\n46\t| 激励的     | stimulating<br>encouraging                                                                                                          |\n47\t| 真诚的     | genuine                                                                                                                             |\n48\t| 有创造力的   | creative                                                                                                                            |\n49\t| 谨慎的     | cautious<br>prudent<br>careful                                                                                                      |\n50\t| 无私的     | selfness                                                                                                                            |\n51\t| 满足      | content<br>satisfaction                                                                                                             |\n52\t| 有希望的    | hopeful                                                                                                                             |\n53\t| 友善      | kind                                                                                                                                |\n54\t| 慷慨      | generous                                                                                                                            |\n55\t| 愉快      | delightful<br>pleasure                                                                                                              |\n56\t| 高效的     | efficient<br>effective<br>high-efficiency                                                                                           |\n57\t| 冷静的     | calm                                                                                                                                |\n58\t| 奇迹      | miracle                                                                                                                             |\n59\t| 令人印象深刻的 | impressive                                                                                                                          |\n60\t| 温和的     | gentle                                                                                                                              |\n61\t| 有成就感的   | fulfilling                                                                                                                          |\n62\t"
+          },
+          {
+            "id": "call_02_8U2pGRAjjAwHJ52ubMqA8639",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/03 逻辑关系/因果关系.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 因果关系\n3\t章: 04 词汇总结\n4\t节: \"[[第三节 逻辑关系]]\"\n5\ttags:\n6\t  - 知识点\n7\tindex: 3\n8\t---\n9\t##### 1）因果词\n10\t\n11\t- as\n12\t- after all\n13\t- a product of\n14\t- act as a catalyst for\n15\t- account for\n16\t- because/because of\n17\t- be associated with/be correlated with\n18\t- be triggered by\n19\t- be accountable to/be responsible to\n20\t- contribute to\n21\t- due to\n22\t- driven by\n23\t- given\n24\t- hence\n25\t- in response\n26\t- leave\n27\t- lead to\n28\t- mean\n29\t- on the grounds that\n30\t- on account of\n31\t- owe to\n32\t- provide evidence that\n33\t- result in\n34\t- since\n35\t- so\n36\t- stem from\n37\t- tempt\n38\t- the reason why\n39\t- therefore\n40\t- thus\n41\t- the cause of\n42\t\n43\t##### 2）目的词\n44\t\n45\t- to\n46\t- in order to\n47\t- for\n48\t- so as to\n49\t- aim to/aim at\n50\t- designed to\n51\t- demand\n52\t- goal\n53\t- ambition\n54\t- purpose\n55\t- motive\n56\t- intend to\n57\t- want to\n58\t- incentive\n59\t- in an effort to\n60\t\n61\t##### 3）条件词\n62\t\n63\t- according to\n64\t- if\n65\t- unless\n66\t- when\n67\t- once\n68\t- depend on\n69\t- based on\n70\t- be determined by"
+          },
+          {
+            "id": "call_03_rBJwPpDpZzk93LzwIX4O9663",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/04 熟词辟义/动词辟义.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\t名称: 动词辟义\n3\t章: 04 词汇总结\n4\t节: \"[[第四节 熟词辟义]]\"\n5\ttags:\n6\t  - 知识点\n7\tindex: 2\n8\t---\n9\t- bear —— 对 ... 施加影响\n10\t- upset —— 推翻\n11\t- betray —— 流露\n12\t- turn out —— 培养\n13\t- bag —— 抢占\n14\t- trail —— 落后\n15\t- stir —— 引起轰动\n16\t- celebrate —— 赞扬\n17\t- doctor —— 伪造"
+          }
+        ],
+        "isExpanded": false,
+        "result": "以下是搜索结果汇总。\n\n---\n\n## 目录：`考研/英语/04 词汇总结`\n\n该目录存在于以下绝对路径：\n\n```\n/Users/jeunesse/Library/Mobile Documents/iCloud~md~obsidian/Documents/Note/考研/英语/04 词汇总结/\n```\n\n它包含 **四个子章节**，共有 **29 个 `.md` 文件**。其完整结构如下：\n\n### 01 话题词 — 7个文件\n\n| 相对路径 | 结构/内容 |\n|---|---|\n| `考研/英语/04 词汇总结/01 话题词/第一节 话题词.md`（索引） | 列出所有话题词子主题的章节索引 |\n| `考研/英语/04 词汇总结/01 话题词/信息技术类.md` | 以无序列表格式列出每一条，后面跟中文释义（例如：`digital —— 数字的`） |\n| `考研/英语/04 词汇总结/01 话题词/环境保护类.md` | 同上格式 |\n| `考研/英语/04 词汇总结/01 话题词/宏观经济类.md` | 同上格式 |\n| `考研/英语/04 词汇总结/01 话题词/传媒出版类.md` | 同上格式 |\n| `考研/英语/04 词汇总结/01 话题词/心理行为类.md` | 同上格式 |\n| `考研/英语/04 词汇总结/01 话题词/历史文化类.md` | 同上格式 |\n| `考研/英语/04 词汇总结/01 话题词/政治法律类.md` | 同上格式 |\n\n**结构：** 每篇笔记以 YAML frontmatter 开头（名称、章节、标签、索引），后接无序列表，每行格式为 `单词 —— 中文释义`。\n\n---\n\n### 02 同义替换 — 9个文件\n\n| 相对路径 | 结构/内容 |\n|---|---|\n| `考研/英语/04 词汇总结/02 同义替换/第二节 同义替换.md`（索引） | 章节索引，带链接列表 |\n| `考研/英语/04 词汇总结/02 同义替换/正向情感.md` | 包含两列（中文释义 | 英文同义词）的 Markdown 表格 |\n| `考研/英语/04 词汇总结/02 同义替换/负向情感.md` | 同上表格格式 |\n| `考研/英语/04 词汇总结/02 同义替换/金钱与经济类.md` | 同上表格格式 |\n| `考研/英语/04 词汇总结/02 同义替换/行为与动作类.md` | 同上表格格式 |\n| `考研/英语/04 词汇总结/02 同义替换/认知与观点类.md` | 同上表格格式 |\n| `考研/英语/04 词汇总结/02 同义替换/方式与程度类.md` | 同上表格格式 |\n| `考研/英语/04 词汇总结/02 同义替换/能力与属性类.md` | 同上表格格式 |\n| `考研/英语/04 词汇总结/02 同义替换/社会与生活类.md` | 同上表格格式 |\n\n**结构：** YAML frontmatter 后接 Markdown 表格，左列填入中文释义，右列填入英文同义词，多词时以 `<br>` 分隔。\n\n---\n\n### 03 逻辑关系 — 6个文件\n\n| 相对路径 | 结构/内容 |\n|---|---|\n| `考研/英语/04 词汇总结/03 逻辑关系/第三节 逻辑关系.md`（索引） | 章节索引，带链接列表 |\n| `考研/英语/04 词汇总结/03 逻辑关系/顺接关系.md` | 按子类分组的项目列表（例如，因果词、目的词、条件词） |\n| `考研/英语/04 词汇总结/03 逻辑关系/相反关系.md` | 同上分组格式 |\n| `考研/英语/04 词汇总结/03 逻辑关系/因果关系.md` | 同上分组格式（因果词、目的词、条件词） |\n| `考研/英语/04 词汇总结/03 逻辑关系/举例关系.md` | 同上分组格式 |\n| `考研/英语/04 词汇总结/03 逻辑关系/时间关系.md` | 同上分组格式 |\n\n**结构：** YAML frontmatter 后接属于每个逻辑关系类别的英文单词/短语的无序列表，通常按语义子类进一步分组（例如，因果关系下：因果词、目的词、条件词）。\n\n---\n\n### 04 熟词辟义 — 5个文件\n\n| 相对路径 | 结构/内容 |\n|---|---|\n| `考研/英语/04 词汇总结/04 熟词辟义/第四节 熟词辟义.md`（索引） | 章节索引，带链接列表 |\n| `考研/英语/04 词汇总结/04 熟词辟义/名词辟义.md` | 项目列表：`单词 —— 辟义` |\n| `考研/英语/04 词汇总结/04 熟词辟义/动词辟义.md` | 项目列表：`单词 —— 辟义` |\n| `考研/英语/04 词汇总结/04 熟词辟义/形容词辟义.md` | 项目列表：`单词 —— 辟义` |\n| `考研/英语/04 词汇总结/04 熟词辟义/副词辟义.md` | 项目列表：`单词 —— 辟义` |\n\n**结构：** YAML frontmatter 后接无序列表，列出具有非标准含义的单词（例如，`bear —— 对...施加影响`）。\n\n---\n\n## 额外的搜索匹配\n\ngrep 搜索确认了 **相同的 29 个文件** 在内容中包含 `词汇总结`（全部在 `考研/英语/04 词汇总结/` 目录内）。该 vault 中没有其他笔记引用 `词汇总结` 这个词。\n\n---\n\n## 标准笔记结构总结\n\n大多数笔记都遵循这种模式：\n\n1. **YAML frontmatter**（键：`名称`、`章`、`节`、`tags`、`index`）\n2. 主体内容为：\n   - **话题词** / **熟词辟义**：`单词 —— 中文释义` 格式的无序列表\n   - **同义替换**：包含中文释义（左列）和英文同义词（右列，多词用 `<br>` 分隔）的 Markdown 表格\n   - **逻辑关系**：按语义子类分组的无序列表"
+      }
+    }
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 1182,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 86016,
+    "contextWindow": 200000,
+    "contextTokens": 87198,
+    "percentage": 44
+  }
+}

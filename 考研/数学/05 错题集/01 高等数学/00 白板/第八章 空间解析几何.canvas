@@ -1,0 +1,124 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第八章 空间解析几何",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-mix",
+			"type": "group",
+			"text": "📌 混合积",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-A8-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/08 空间解析几何/错 A8-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "card-A8-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/08 空间解析几何/错 A8-2.md",
+			"x": 470,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "group-plane",
+			"type": "group",
+			"text": "📌 平面方程",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-A8-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/08 空间解析几何/错 A8-3.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-surface",
+			"type": "group",
+			"text": "📌 曲面方程",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "1"
+		},
+		{
+			"id": "card-A8-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/08 空间解析几何/错 A8-4.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-tangent",
+			"type": "group",
+			"text": "📌 曲面切线／切平面",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "3"
+		},
+		{
+			"id": "card-A8-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/08 空间解析几何/错 A8-5.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-cross",
+			"type": "group",
+			"text": "📌 向量积",
+			"x": 40,
+			"y": 1480,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-A8-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/01 高等数学/08 空间解析几何/错 A8-6.md",
+			"x": 80,
+			"y": 1525,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		}
+	],
+	"edges": []
+}

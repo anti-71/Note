@@ -1,0 +1,164 @@
+{
+	"nodes": [
+		{
+			"id": "title-node",
+			"type": "text",
+			"text": "# 第三章 多维随机变量及其分布",
+			"x": 400,
+			"y": -40,
+			"width": 500,
+			"height": 65
+		},
+		{
+			"id": "group-continuous2d",
+			"type": "group",
+			"text": "📌 二维连续型随机变量概率计算",
+			"x": 40,
+			"y": 60,
+			"width": 1220,
+			"height": 310,
+			"color": "4"
+		},
+		{
+			"id": "card-P3-1",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-1.md",
+			"x": 80,
+			"y": 105,
+			"width": 360,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "group-proof",
+			"type": "group",
+			"text": "📌 证明题",
+			"x": 40,
+			"y": 415,
+			"width": 1220,
+			"height": 310,
+			"color": "6"
+		},
+		{
+			"id": "card-P3-2",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-2.md",
+			"x": 80,
+			"y": 460,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-function2d",
+			"type": "group",
+			"text": "📌 二维连续型随机变量函数的分布",
+			"x": 40,
+			"y": 770,
+			"width": 1220,
+			"height": 310,
+			"color": "2"
+		},
+		{
+			"id": "card-P3-3",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-3.md",
+			"x": 80,
+			"y": 815,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-independence",
+			"type": "group",
+			"text": "📌 随机变量的独立性",
+			"x": 40,
+			"y": 1125,
+			"width": 1220,
+			"height": 310,
+			"color": "5"
+		},
+		{
+			"id": "card-P3-4",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-4.md",
+			"x": 80,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P3-5",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-5.md",
+			"x": 480,
+			"y": 1170,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P3-6",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-6.md",
+			"x": 80,
+			"y": 1525,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "group-max",
+			"type": "group",
+			"text": "📌 最大值函数",
+			"x": 40,
+			"y": 1480,
+			"width": 1220,
+			"height": 310,
+			"color": "3"
+		},
+		{
+			"id": "group-compound",
+			"type": "group",
+			"text": "📌 复合分布",
+			"x": 40,
+			"y": 1835,
+			"width": 1220,
+			"height": 310,
+			"color": "1"
+		},
+		{
+			"id": "card-P3-7",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-7.md",
+			"x": 80,
+			"y": 1880,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P3-8",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-8.md",
+			"x": 480,
+			"y": 1880,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		},
+		{
+			"id": "card-P3-9",
+			"type": "file",
+			"file": "考研/数学/05 错题集/03 概率论与数理统计/03 多维随机变量及其分布/错 P3-9.md",
+			"x": 880,
+			"y": 1880,
+			"width": 360,
+			"height": 220,
+			"color": "5"
+		}
+	],
+	"edges": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782803355897-rboyb9yn1",
+  "providerId": "claude",
+  "title": "Compare Claude Opus Sonnet Haiku",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782803355898,
+  "updatedAt": 1782804172396,
+  "lastResponseAt": 1782803649116,
+  "sessionId": "07dd7199-6fcb-4509-9584-179fa204e45e",
+  "providerState": {
+    "providerSessionId": "07dd7199-6fcb-4509-9584-179fa204e45e"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 611,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 230144,
+    "contextWindow": 200000,
+    "contextTokens": 230755,
+    "percentage": 100,
+    "contextWindowIsAuthoritative": true
+  }
+}
