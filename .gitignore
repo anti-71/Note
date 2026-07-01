@@ -65,3 +65,10 @@
 .obsidian/themes/AnuPpuccin/theme.css
 .obsidian/themes/Blue Topaz/manifest.json
 .obsidian/themes/Blue Topaz/theme.css
+
+# macOS
+.DS_Store
+
+# Reasonix AI config
+.reasonix/
+reasonix.toml
