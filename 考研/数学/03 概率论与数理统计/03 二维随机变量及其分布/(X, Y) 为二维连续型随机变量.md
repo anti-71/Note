@@ -2,6 +2,9 @@
 名称: (X, Y) 为二维连续型随机变量
 章: 第三章 二维随机变量及其分布
 节: "[[第五节 随机变量函数的分布]]"
+tags:
+  - 知识点
+index: 2
 ---
 已知 $(X,Y)$ 的概率密度为 $f(x,y)$，则 $Z = g(X,Y)$ 可能为离散型，也可能为连续型，甚至既不是连续型也不是离散型
 
@@ -33,6 +36,22 @@ $$
 $$
 \frac{d}{dz}\int^{\beta(z)}_{\alpha(z)}g(z, x)dx =\int^{\beta(z)}_{\alpha(z)}g'_z(z)dx+g(z,\beta(z))\beta'(z)-g(z,\alpha(z))\alpha'(z)
 $$
+
+> [!example] 莱布尼兹公式应用示例
+> 求 $f_Z(z)$，其中 $F_Z(z)=\displaystyle\int_0^z dx\int_0^{z-x} \frac12(x+y)\mathrm{e}^{-(x+y)}dy$
+>
+> $$
+> \begin{aligned}
+> \frac{d}{dz}F_Z(z) &=
+> \frac{d}{dz}\int_0^z g(z,x)\,dx,\quad
+> g(z,x)=\int_0^{z-x}\frac12(x+y)\mathrm{e}^{-(x+y)}dy \\[4pt]
+> &= \int_0^z g'_z(z,x)\,dx + g(z,z) - 0 \\[4pt]
+> &= \int_0^z \frac12 z\mathrm{e}^{-z}\,dx + 0 \\[4pt]
+> &= \frac12 z^2\mathrm{e}^{-z}
+> \end{aligned}
+> $$
+>
+> 其中 $g'_z(z,x)=\dfrac12 z\mathrm{e}^{-z}$，$g(z,z)=0$
 
 > [!note]
 > 分布函数法的难点在于，在计算 $F_Z(z)$ 的过程中，经常需要对变量 Z 进行分段讨论
