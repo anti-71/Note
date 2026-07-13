@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"parent-definition","type":"group","text":"📌 导数的定义","x":20,"y":40,"width":1260,"height":1405,"color":"1"},
 		{"id":"parent-calculation","type":"group","text":"📌 导数的计算","x":20,"y":1460,"width":1260,"height":1415,"color":"5"},
-		{"id":"parent-application","type":"group","text":"📌 导数的应用","x":1300,"y":395,"width":1260,"height":2125,"color":"7"},
+		{"id":"parent-application","type":"group","text":"📌 导数的应用","x":1300,"y":395,"width":1260,"height":2500,"color":"7"},
 		{"id":"group-left-1","type":"group","text":"📌 导数的定义","x":40,"y":415,"width":1220,"height":1010,"color":"3"},
 		{"id":"group-left-0","type":"group","text":"📌 导数的定义-分段函数求导","x":40,"y":60,"width":1220,"height":310,"color":"1"},
 		{"id":"group-left-2","type":"group","text":"📌 高阶导数","x":40,"y":1480,"width":1220,"height":310,"color":"4"},
@@ -15,7 +15,8 @@
 		{"id":"group-right-3","type":"group","text":"📌 求零点","x":1320,"y":1125,"width":1220,"height":310,"color":"7"},
 		{"id":"group-right-4","type":"group","text":"📌 拐点","x":1320,"y":1480,"width":1220,"height":310,"color":"4"},
 		{"id":"group-right-5","type":"group","text":"📌 驻点","x":1320,"y":1835,"width":1220,"height":310,"color":"5"},
-		{"id":"group-right-6","type":"group","text":"📌 导数的应用","x":1320,"y":2190,"width":1220,"height":310,"color":"3"},
+		{"id":"group-right-6","type":"group","text":"📌 导数的应用","x":1320,"y":2545,"width":1220,"height":310,"color":"3"},
+		{"id":"group-concavity","type":"group","text":"📌 凹凸性","x":1320,"y":2190,"width":1220,"height":310,"color":"2"},
 		{"id":"title-node","type":"text","text":"# 第二章 一元函数微分学","x":920,"y":-40,"width":500,"height":65},
 		{"id":"card-A2-1","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-1.md","x":80,"y":105,"width":360,"height":220,"color":"3"},
 		{"id":"card-A2-2","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-2.md","x":80,"y":460,"width":360,"height":220,"color":"5"},
@@ -43,8 +44,9 @@
 		{"id":"card-A2-24","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-24.md","x":1360,"y":1525,"width":360,"height":220,"color":"3"},
 		{"id":"card-A2-25","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-25.md","x":1760,"y":1525,"width":360,"height":220,"color":"3"},
 		{"id":"card-A2-26","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-26.md","x":1360,"y":1880,"width":360,"height":220,"color":"5"},
-		{"id":"card-A2-27","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-27.md","x":1360,"y":2235,"width":360,"height":220,"color":"5"},
-		{"id":"card-A2-28","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-28.md","x":1760,"y":2235,"width":360,"height":220,"color":"5"},
+		{"id":"card-A2-27","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-27.md","x":1360,"y":2590,"width":360,"height":220,"color":"5"},
+		{"id":"card-A2-28","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-28.md","x":1760,"y":2590,"width":360,"height":220,"color":"5"},
+		{"id":"card-A2-30","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-30.md","x":1360,"y":2235,"width":360,"height":220,"color":"5"},
 		{"id":"card-A2-29","type":"file","file":"考研/数学/05 错题集/01 高等数学/02 一元函数微分学/错 A2-29.md","x":480,"y":1525,"width":360,"height":220,"color":"5"}
 	],
 	"edges":[]
