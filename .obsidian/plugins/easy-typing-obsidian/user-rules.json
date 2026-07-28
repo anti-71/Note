@@ -65,7 +65,7 @@
   },
   {
     "trigger": "f",
-    "replacement": "\\dfrac{$0}{}",
+    "replacement": "\\dfrac",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
@@ -89,7 +89,7 @@
   },
   {
     "trigger": "mr",
-    "replacement": "\\mathrm{$0}",
+    "replacement": "\\mathrm",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
@@ -137,7 +137,7 @@
   },
   {
     "trigger": "s",
-    "replacement": "\\sqrt{$0}",
+    "replacement": "\\sqrt",
     "options": "Tf",
     "priority": 100,
     "enabled": true,
