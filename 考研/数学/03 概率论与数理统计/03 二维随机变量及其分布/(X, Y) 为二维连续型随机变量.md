@@ -44,9 +44,9 @@ $$
 > \begin{aligned}
 > \frac{d}{dz}F_Z(z) &=
 > \frac{d}{dz}\int_0^z g(z,x)\,dx,\quad
-> g(z,x)=\int_0^{z-x}\frac12(x+y)\mathrm{e}^{-(x+y)}dy \\[4pt]
-> &= \int_0^z g'_z(z,x)\,dx + g(z,z) - 0 \\[4pt]
-> &= \int_0^z \frac12 z\mathrm{e}^{-z}\,dx + 0 \\[4pt]
+> g(z,x)=\int_0^{z-x}\frac12(x+y)\mathrm{e}^{-(x+y)}dy \\
+> &= \int_0^z g'_z(z,x)\,dx + g(z,z) - 0 \\
+> &= \int_0^z \frac12 z\mathrm{e}^{-z}\,dx + 0 \\
 > &= \frac12 z^2\mathrm{e}^{-z}
 > \end{aligned}
 > $$
