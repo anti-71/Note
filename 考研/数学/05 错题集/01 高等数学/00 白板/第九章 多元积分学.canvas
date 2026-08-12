@@ -1,74 +1,12 @@
 {
-	"nodes": [
-		{
-			"id": "title-node",
-			"type": "text",
-			"text": "# 第九章 多元积分学",
-			"x": 400,
-			"y": -40,
-			"width": 500,
-			"height": 65
-		},
-		{
-			"id": "group-lineint",
-			"type": "group",
-			"text": "📌 曲线积分",
-			"x": 40,
-			"y": 60,
-			"width": 1220,
-			"height": 310,
-			"color": "5"
-		},
-		{
-			"id": "card-A9-1",
-			"type": "file",
-			"file": "考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-1.md",
-			"x": 80,
-			"y": 105,
-			"width": 360,
-			"height": 220,
-			"color": "5"
-		},
-		{
-			"id": "card-A9-2",
-			"type": "file",
-			"file": "考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-2.md",
-			"x": 470,
-			"y": 105,
-			"width": 360,
-			"height": 220,
-			"color": "5"
-		},
-		{
-			"id": "card-A9-3",
-			"type": "file",
-			"file": "考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-3.md",
-			"x": 860,
-			"y": 105,
-			"width": 360,
-			"height": 220,
-			"color": "5"
-		},
-		{
-			"id": "group-surfaceint",
-			"type": "group",
-			"text": "📌 曲面积分",
-			"x": 40,
-			"y": 415,
-			"width": 1220,
-			"height": 310,
-			"color": "2"
-		},
-		{
-			"id": "card-A9-4",
-			"type": "file",
-			"file": "考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-4.md",
-			"x": 80,
-			"y": 460,
-			"width": 360,
-			"height": 220,
-			"color": "5"
-		}
+	"nodes":[
+		{"id":"title-node","type":"text","text":"# 第九章 多元积分学","x":400,"y":-40,"width":500,"height":65},
+		{"id":"group-lineint","type":"group","text":"📌 曲线积分","x":40,"y":60,"width":1220,"height":310,"color":"5"},
+		{"id":"card-A9-1","type":"file","file":"考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-1.md","x":80,"y":105,"width":360,"height":220,"color":"5"},
+		{"id":"card-A9-2","type":"file","file":"考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-2.md","x":470,"y":105,"width":360,"height":220,"color":"5"},
+		{"id":"card-A9-3","type":"file","file":"考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-3.md","x":860,"y":105,"width":360,"height":220,"color":"5"},
+		{"id":"group-surfaceint","type":"group","text":"📌 曲面积分","x":40,"y":415,"width":1220,"height":310,"color":"2"},
+		{"id":"card-A9-4","type":"file","file":"考研/数学/05 错题集/01 高等数学/09 多元积分学/错 A9-4.md","x":80,"y":460,"width":360,"height":220,"color":"5"}
 	],
-	"edges": []
+	"edges":[]
 }

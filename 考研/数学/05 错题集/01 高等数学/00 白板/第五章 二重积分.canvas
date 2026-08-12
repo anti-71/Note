@@ -1,10 +1,10 @@
 {
 	"nodes":[
+		{"id":"group-polartrans","type":"group","text":"📌 极坐标变换","x":40,"y":1125,"width":1220,"height":555,"color":"2"},
 		{"id":"group-deriv","type":"group","text":"📌 二重积分求导","x":40,"y":60,"width":1220,"height":310,"color":"4"},
 		{"id":"group-order","type":"group","text":"📌 交换积分次序","x":40,"y":415,"width":1220,"height":310,"color":"6"},
 		{"id":"group-polar","type":"group","text":"📌 利用函数的奇偶性","x":40,"y":770,"width":1220,"height":310,"color":"1"},
-		{"id":"group-polartrans","type":"group","text":"📌 极坐标变换","x":40,"y":1125,"width":1220,"height":310,"color":"2"},
-		{"id":"group-sym","type":"group","text":"📌 利用轮换对称性","x":40,"y":1480,"width":1220,"height":310,"color":"3"},
+		{"id":"group-sym","type":"group","text":"📌 利用轮换对称性","x":40,"y":1700,"width":1220,"height":310,"color":"3"},
 		{"id":"title-node","type":"text","text":"# 第五章 二重积分","x":400,"y":-40,"width":500,"height":65},
 		{"id":"card-A5-1","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-1.md","x":80,"y":105,"width":360,"height":220,"color":"5"},
 		{"id":"card-A5-2","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-2.md","x":80,"y":460,"width":360,"height":220,"color":"2"},
@@ -12,8 +12,9 @@
 		{"id":"card-A5-4","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-4.md","x":80,"y":1170,"width":360,"height":220,"color":"2"},
 		{"id":"card-A5-5","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-5.md","x":470,"y":1170,"width":360,"height":220,"color":"5"},
 		{"id":"card-A5-8","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-8.md","x":860,"y":1170,"width":360,"height":220,"color":"2"},
-		{"id":"card-A5-6","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-6.md","x":80,"y":1525,"width":360,"height":220,"color":"5"},
-		{"id":"card-A5-7","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-7.md","x":470,"y":1525,"width":360,"height":220,"color":"5"}
+		{"id":"card-A5-9","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-9.md","x":80,"y":1420,"width":360,"height":220,"color":"5"},
+		{"id":"card-A5-6","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-6.md","x":80,"y":1745,"width":360,"height":220,"color":"5"},
+		{"id":"card-A5-7","type":"file","file":"考研/数学/05 错题集/01 高等数学/05 二重积分/错 A5-7.md","x":470,"y":1745,"width":360,"height":220,"color":"5"}
 	],
 	"edges":[]
 }
